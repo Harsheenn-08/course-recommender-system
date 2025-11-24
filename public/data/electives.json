@@ -1,0 +1,94 @@
+{
+  "electives": [
+    {
+      "elective_id": "e1",
+      "name": "Advanced Machine Learning",
+      "semester": "6th",
+      "department": "Computer Science",
+      "description": "Deep dive into advanced ML algorithms and applications",
+      "avg_rating": 4.8,
+      "rating_count": 42
+    },
+    {
+      "elective_id": "e2",
+      "name": "Quantum Computing Basics",
+      "semester": "7th",
+      "department": "Physics & CS",
+      "description": "Introduction to quantum computing principles and algorithms",
+      "avg_rating": 4.5,
+      "rating_count": 28
+    },
+    {
+      "elective_id": "e3",
+      "name": "Blockchain & Cryptography",
+      "semester": "6th",
+      "department": "Computer Science",
+      "description": "Explore blockchain technology, smart contracts, and modern cryptography",
+      "avg_rating": 4.7,
+      "rating_count": 35
+    },
+    {
+      "elective_id": "e4",
+      "name": "Computer Vision",
+      "semester": "7th",
+      "department": "Computer Science",
+      "description": "Image processing and deep learning for computer vision applications",
+      "avg_rating": 4.6,
+      "rating_count": 38
+    },
+    {
+      "elective_id": "e5",
+      "name": "IoT Systems Design",
+      "semester": "6th",
+      "department": "Electronics & CS",
+      "description": "Design and implementation of Internet of Things systems",
+      "avg_rating": 4.4,
+      "rating_count": 22
+    },
+    {
+      "elective_id": "e6",
+      "name": "Cloud Architecture",
+      "semester": "7th",
+      "department": "Computer Science",
+      "description": "Modern cloud computing platforms and distributed systems",
+      "avg_rating": 4.7,
+      "rating_count": 45
+    },
+    {
+      "elective_id": "e7",
+      "name": "Natural Language Processing",
+      "semester": "7th",
+      "department": "Computer Science",
+      "description": "Advanced techniques for processing and understanding human language",
+      "avg_rating": 4.9,
+      "rating_count": 51
+    },
+    {
+      "elective_id": "e8",
+      "name": "Bioinformatics",
+      "semester": "6th",
+      "department": "Biology & CS",
+      "description": "Computational methods for biological data analysis",
+      "avg_rating": 4.3,
+      "rating_count": 18
+    },
+    {
+      "elective_id": "e9",
+      "name": "Game Development",
+      "semester": "6th",
+      "department": "Computer Science",
+      "description": "Create interactive games using modern game engines",
+      "avg_rating": 4.8,
+      "rating_count": 62
+    },
+    {
+      "elective_id": "e10",
+      "name": "Cybersecurity & Penetration Testing",
+      "semester": "7th",
+      "department": "Computer Science",
+      "description": "Security practices and ethical hacking techniques",
+      "avg_rating": 4.6,
+      "rating_count": 31
+    }
+  ]
+}
