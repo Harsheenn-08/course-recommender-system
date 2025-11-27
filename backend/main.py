@@ -1,16 +1,18 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import sqlite3, os, datetime
+import sqlite3
+import os
+import datetime
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "db.sqlite")
 
 app = FastAPI()
 
-# Allow frontend (Next.js) to call this API
+# Allow frontend to talk to this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],       # in production, restrict to your domain
+    allow_origins=["*"],  # in production, restrict to your domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,7 +40,7 @@ class ReviewReq(BaseModel):
     comment: str | None = None
     is_senior: int = 0
 
-# ---------- Helper ----------
+# ---------- Helper to compute avg rating ----------
 
 def get_avg_rating(course_id: int):
     conn = get_conn()
@@ -55,9 +57,18 @@ def get_avg_rating(course_id: int):
 
 @app.get("/api/courses")
 def list_courses():
+    """
+    Return all courses with their average ratings.
+    """
     conn = get_conn()
     cur = conn.cursor()
-    rows = cur.execute("SELECT * FROM courses ORDER BY created_at DESC").fetchall()
+    try:
+        # Use course_id instead of created_at to avoid column issues
+        rows = cur.execute("SELECT * FROM courses ORDER BY course_id DESC").fetchall()
+    except Exception as e:
+        conn.close()
+        print("Error in /api/courses:", e)
+        raise HTTPException(status_code=500, detail=str(e))
     conn.close()
 
     result = []
@@ -146,10 +157,10 @@ def mark_complete(payload: dict):
 @app.post("/api/recommend")
 def recommend(req: RecommendReq):
     """
-    Simple rule-based recommender for Backend #1:
-    - Filters by CGPA
-    - Scores by tag overlap with interests
-    (Later we will replace this with a proper ML model.)
+    Simple rule-based recommender for now:
+    - Filter by CGPA (min_cgpa <= student cgpa)
+    - Score by overlap between interests and course tags
+    - Add a small boost from avg rating
     """
     conn = get_conn()
     rows = conn.execute("SELECT * FROM courses").fetchall()
@@ -172,7 +183,7 @@ def recommend(req: RecommendReq):
         score = overlap
 
         avg_rating, _ = get_avg_rating(r["course_id"])
-        score += (avg_rating - 3.0) * 0.3   # small rating boost
+        score += (avg_rating - 3.0) * 0.3  # small rating boost
 
         scored.append((score, r))
 

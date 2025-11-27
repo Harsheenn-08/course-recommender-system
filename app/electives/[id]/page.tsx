@@ -1,21 +1,45 @@
 "use client"
 
 import type React from "react"
-
 import { useEffect, useState } from "react"
 import { useRouter, useParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { storage, type User, type Review } from "@/lib/storage"
 import Navigation from "@/components/navigation"
 
-interface Elective {
+interface GeneralElective {
+  elective_id: string
+  course_no: string
+  name: string
+  l: number
+  t: number
+  p: number
+  credits: number
+  description: string
+  objectives?: string[]
+  topics?: string[]
+  outcomes?: string[]
+  books?: string[]
+  evaluation?: { MST: number; EST: number }
+  avg_rating: number
+  rating_count: number
+  reviews?: any[]
+}
+
+interface BasketElective {
   elective_id: string
   name: string
-  semester: string
   department: string
   description: string
   avg_rating: number
   rating_count: number
+  reviews?: any[]
+}
+
+type Elective = GeneralElective | BasketElective
+
+function isGeneralElective(elective: Elective): elective is GeneralElective {
+  return "course_no" in elective
 }
 
 export default function ElectiveDetailsPage() {
@@ -53,15 +77,35 @@ export default function ElectiveDetailsPage() {
     try {
       const response = await fetch("/data/electives.json")
       const data = await response.json()
-      const found = data.electives.find((e: Elective) => e.elective_id === electiveId)
+
+      const foundGeneral = data.general_electives.find((e: GeneralElective) => e.elective_id === electiveId)
+      const foundBasket = data.basket_electives.find((e: BasketElective) => e.elective_id === electiveId)
+      const found = foundGeneral || foundBasket
 
       if (found) {
         setElective(found)
-        const electiveReviews = storage.getReviews().filter((r) => r.course_id === electiveId)
-        setReviews(electiveReviews)
 
-        if (electiveReviews.length > 0) {
-          const avg = electiveReviews.reduce((sum, r) => sum + r.rating, 0) / electiveReviews.length
+        const localReviews = storage.getReviews().filter((r) => r.course_id === electiveId)
+
+        // Convert JSON reviews to Review format
+        const jsonReviews: Review[] = (found.reviews || []).map((r: any, idx: number) => ({
+          review_id: `json_${electiveId}_${idx}`,
+          course_id: electiveId,
+          reviewer_name: r.user,
+          rating: r.rating,
+          pros: r.pros || "",
+          cons: r.cons || "",
+          comment: r.comment || "",
+          is_senior: true,
+          created_at: r.date ? new Date(r.date).toISOString() : new Date().toISOString(),
+        }))
+
+        // Merge JSON reviews with user-submitted reviews
+        const allReviews = [...jsonReviews, ...localReviews]
+        setReviews(allReviews)
+
+        if (allReviews.length > 0) {
+          const avg = allReviews.reduce((sum, r) => sum + r.rating, 0) / allReviews.length
           setAvgRating(avg)
         } else {
           setAvgRating(found.avg_rating)
@@ -116,17 +160,27 @@ export default function ElectiveDetailsPage() {
     <div className="min-h-screen bg-background">
       <Navigation user={user} />
 
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Elective Header */}
         <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-8 mb-8 border border-border">
-          <div className="mb-4 flex gap-2">
-            <span className="inline-block px-3 py-1 rounded-full bg-primary/20 text-primary text-sm font-semibold">
-              {elective.semester} Semester
-            </span>
-            <span className="inline-block px-3 py-1 rounded-full bg-accent/20 text-accent text-sm font-semibold">
-              {elective.department}
-            </span>
-          </div>
+          {isGeneralElective(elective) && (
+            <div className="mb-4 flex gap-2 flex-wrap">
+              <span className="inline-block px-3 py-1 rounded-full bg-primary/20 text-primary text-sm font-semibold">
+                {elective.course_no}
+              </span>
+              <span className="inline-block px-3 py-1 rounded-full bg-accent/20 text-accent text-sm font-semibold">
+                L-T-P: {elective.l}-{elective.t}-{elective.p} | Credits: {elective.credits}
+              </span>
+            </div>
+          )}
+
+          {!isGeneralElective(elective) && (
+            <div className="mb-4">
+              <span className="inline-block px-3 py-1 rounded-full bg-accent/20 text-accent text-sm font-semibold">
+                {elective.department}
+              </span>
+            </div>
+          )}
 
           <h1 className="text-4xl font-bold text-foreground mb-4">{elective.name}</h1>
 
@@ -144,9 +198,93 @@ export default function ElectiveDetailsPage() {
         <div className="space-y-8">
           {/* Description */}
           <section className="bg-card rounded-xl p-8 border border-border">
-            <h2 className="text-2xl font-bold text-foreground mb-4">About This Elective</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">Course Description</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">{elective.description}</p>
           </section>
+
+          {isGeneralElective(elective) && (
+            <>
+              {/* Course Objectives */}
+              {elective.objectives && elective.objectives.length > 0 && (
+                <section className="bg-card rounded-xl p-8 border border-border">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Course Objectives</h2>
+                  <ul className="space-y-2">
+                    {elective.objectives.map((obj, idx) => (
+                      <li key={idx} className="flex gap-3">
+                        <span className="text-primary font-bold mt-1">•</span>
+                        <span className="text-muted-foreground leading-relaxed">{obj}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
+              {/* Course Topics */}
+              {elective.topics && elective.topics.length > 0 && (
+                <section className="bg-card rounded-xl p-8 border border-border">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Topics Covered</h2>
+                  <ul className="space-y-3">
+                    {elective.topics.map((topic, idx) => (
+                      <li key={idx} className="flex gap-3">
+                        <span className="text-accent font-bold mt-1">→</span>
+                        <span className="text-muted-foreground leading-relaxed">{topic}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
+              {/* Course Learning Outcomes */}
+              {elective.outcomes && elective.outcomes.length > 0 && (
+                <section className="bg-card rounded-xl p-8 border border-border">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Course Learning Outcomes</h2>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Upon completion of the course, students will be able to:
+                  </p>
+                  <ul className="space-y-2">
+                    {elective.outcomes.map((outcome, idx) => (
+                      <li key={idx} className="flex gap-3">
+                        <span className="text-green-600 font-bold mt-1">✓</span>
+                        <span className="text-muted-foreground leading-relaxed">{outcome}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
+              {/* Recommended Books */}
+              {elective.books && elective.books.length > 0 && (
+                <section className="bg-card rounded-xl p-8 border border-border">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Recommended Books</h2>
+                  <ul className="space-y-2">
+                    {elective.books.map((book, idx) => (
+                      <li key={idx} className="flex gap-3">
+                        <span className="text-primary font-bold">{idx + 1}.</span>
+                        <span className="text-muted-foreground leading-relaxed">{book}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
+              {/* Evaluation Scheme */}
+              {elective.evaluation && (
+                <section className="bg-card rounded-xl p-8 border border-border">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Evaluation Scheme</h2>
+                  <div className="grid grid-cols-2 gap-4 max-w-md">
+                    <div className="bg-primary/10 rounded-lg p-4 text-center">
+                      <p className="text-sm text-muted-foreground mb-1">Mid-Semester Test</p>
+                      <p className="text-3xl font-bold text-primary">{elective.evaluation.MST}%</p>
+                    </div>
+                    <div className="bg-accent/10 rounded-lg p-4 text-center">
+                      <p className="text-sm text-muted-foreground mb-1">End-Semester Test</p>
+                      <p className="text-3xl font-bold text-accent">{elective.evaluation.EST}%</p>
+                    </div>
+                  </div>
+                </section>
+              )}
+            </>
+          )}
 
           {/* Senior Reviews */}
           <section className="bg-card rounded-xl p-8 border border-border">
@@ -223,15 +361,21 @@ export default function ElectiveDetailsPage() {
                     <button
                       key={star}
                       type="button"
-                      onClick={() => setReviewForm({ ...reviewForm, rating: star })}
-                      className={`text-4xl transition-all ${
+                      onClick={(e) => {
+                        e.preventDefault()
+                        setReviewForm({ ...reviewForm, rating: star })
+                      }}
+                      className={`text-4xl transition-all hover:scale-110 cursor-pointer ${
                         star <= reviewForm.rating ? "text-yellow-500" : "text-gray-300"
                       }`}
                     >
-                      ⭐
+                      ★
                     </button>
                   ))}
                 </div>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Selected: {reviewForm.rating} star{reviewForm.rating !== 1 ? "s" : ""}
+                </p>
               </div>
 
               <div>
