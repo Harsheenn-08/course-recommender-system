@@ -1,94 +1,2477 @@
 {
-  "electives": [
+  "general_electives": [
     {
-      "elective_id": "e1",
-      "name": "Advanced Machine Learning",
-      "semester": "6th",
-      "department": "Computer Science",
-      "description": "Deep dive into advanced ML algorithms and applications",
-      "avg_rating": 4.8,
-      "rating_count": 42
-    },
-    {
-      "elective_id": "e2",
-      "name": "Quantum Computing Basics",
-      "semester": "7th",
-      "department": "Physics & CS",
-      "description": "Introduction to quantum computing principles and algorithms",
+      "elective_id": "1",
+      "course_no": "UHU016",
+      "name": "Introductory Course in French",
+      "department": "Humanities",
+      "credits": "2.0",
+      "ltp": "2-0-0",
       "avg_rating": 4.5,
-      "rating_count": 28
+      "rating_count": 28,
+      "reviews": [
+        {
+          "user": "Aryan Kapoor",
+          "rating": 5,
+          "comment": "Great introduction to French! The instructor made learning fun and engaging.",
+          "pros": "Interactive classes, Good pronunciation practice",
+          "cons": "Could use more conversation practice",
+          "date": "2024-01-20"
+        },
+        {
+          "user": "Simran Kaur",
+          "rating": 4,
+          "comment": "Enjoyed learning French basics. Good for beginners.",
+          "pros": "Well structured, Friendly instructor",
+          "cons": "Fast paced at times",
+          "date": "2024-02-15"
+        }
+      ],
+      "description": "Learn the basics of French language including grammar, vocabulary, and conversation skills for real-life communication.",
+      "objectives": [
+        "Introduce the basics of French language to students with minimal or no prior knowledge",
+        "Help acquire skills in writing and speaking in French, comprehending written and spoken French",
+        "Train students to introduce themselves and others, carry out short conversations, ask for simple information",
+        "Focus on real life language use, integration of French and francophone culture"
+      ],
+      "topics": [
+        "Communicative skills: Greetings, personal information, phone conversations, describing people and places",
+        "Grammar: Pronouns, nouns, articles, regular and irregular verbs, adjectives, negation, tenses",
+        "Vocabulary: Countries, professions, numbers, colors, food, family, places",
+        "Phonetics: Pronunciation, accent, intonation, vowel and consonant sounds"
+      ],
+      "outcomes": [
+        "Communicate in simple everyday situations with basic grammatical structure",
+        "Develop oral and reading comprehension skills as well as speaking and writing",
+        "Understand simple information in authentic materials like posters and advertisements",
+        "Write simple messages, letters, and dialogues",
+        "Express feelings, preferences, wishes and display basic francophone awareness"
+      ],
+      "books": [
+        "Alter ego-1: Méthode de français by Annie Berthet et al., Hachette",
+        "Connexions-1: Méthode de français by Régine Mérieux, Didier",
+        "Version Originale-1 by Monique Denyer, Maison des Langues",
+        "Campus-1 by Jacky Girardet, CLE International"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.5,
+      "rating_count": 0
     },
     {
-      "elective_id": "e3",
-      "name": "Blockchain & Cryptography",
-      "semester": "6th",
-      "department": "Computer Science",
-      "description": "Explore blockchain technology, smart contracts, and modern cryptography",
+      "elective_id": "2",
+      "course_no": "UHU017",
+      "name": "Introduction to Cognitive Science",
+      "department": "Humanities",
+      "credits": "2.0",
+      "ltp": "2-0-0",
       "avg_rating": 4.7,
-      "rating_count": 35
-    },
-    {
-      "elective_id": "e4",
-      "name": "Computer Vision",
-      "semester": "7th",
-      "department": "Computer Science",
-      "description": "Image processing and deep learning for computer vision applications",
+      "rating_count": 32,
+      "reviews": [
+        {
+          "user": "Naman Agarwal",
+          "rating": 5,
+          "comment": "Fascinating subject! Learned about how the mind works.",
+          "pros": "Interesting topics, Great discussions",
+          "cons": "Heavy reading load",
+          "date": "2024-01-18"
+        },
+        {
+          "user": "Diya Sharma",
+          "rating": 5,
+          "comment": "Mind-blowing course. Changed my perspective on cognition.",
+          "pros": "Interdisciplinary approach, Engaging lectures",
+          "cons": "None",
+          "date": "2024-02-24"
+        }
+      ],
+      "description": "Explore the interdisciplinary study of mind and intelligence from philosophy, psychology, neuroscience, linguistics, and AI perspectives.",
+      "objectives": [
+        "Introduce the study of intelligence, mind and brain from interdisciplinary perspective",
+        "Understand contemporary views of how the mind works and nature of reason",
+        "Learn modern computational theory of mind",
+        "Understand mechanisms through which brain processes language and develops consciousness"
+      ],
+      "topics": [
+        "Overview: Newell's big question, constituent disciplines, interdisciplinary approach",
+        "Philosophy: Mind-body problem, Cartesian dualism, functionalism, Turing Test, consciousness",
+        "Psychology: Cognitive revolution, perception, visual cognition, learning and memory, working memory",
+        "Linguistics: Grammar components, Chomsky, compositional syntax, semantics, language acquisition",
+        "Neuroscience: Brain anatomy, neuroimaging, synaptic transmission, biological learning basis",
+        "AI: Turing machines, physical symbol systems, machine learning, cognitive architectures"
+      ],
+      "outcomes": [
+        "Identify cognitive science as interdisciplinary paradigm across multiple fields",
+        "Explain mental processes like memory, attention, and representational techniques",
+        "Acquire knowledge of neural networks, linguistic formalism, and the brain",
+        "Apply basic AI techniques to solve simple problems"
+      ],
+      "books": [
+        "Cognitive Science: An Introduction to the Science of the Mind by Bermúdez, Cambridge",
+        "Cognitive Science: An Introduction by Friedenberg & Silverman, Sage Publications",
+        "Mind: An Introduction to Cognitive Science by Thagard, MIT Press"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
       "avg_rating": 4.6,
-      "rating_count": 38
+      "rating_count": 0
     },
     {
-      "elective_id": "e5",
-      "name": "IoT Systems Design",
-      "semester": "6th",
-      "department": "Electronics & CS",
-      "description": "Design and implementation of Internet of Things systems",
+      "elective_id": "3",
+      "course_no": "UHU018",
+      "name": "Introduction to Corporate Finance",
+      "department": "Humanities",
+      "credits": "2.0",
+      "ltp": "2-0-0",
       "avg_rating": 4.4,
-      "rating_count": 22
+      "rating_count": 25,
+      "reviews": [
+        {
+          "user": "Kartik Malhotra",
+          "rating": 4,
+          "comment": "Good finance basics for non-commerce students.",
+          "pros": "Clear concepts, Practical examples",
+          "cons": "Could go deeper into topics",
+          "date": "2024-02-01"
+        },
+        {
+          "user": "Sanya Goel",
+          "rating": 5,
+          "comment": "Learned a lot about corporate finance. Very useful!",
+          "pros": "Real-world applications, Good case studies",
+          "cons": "Fast paced",
+          "date": "2024-03-10"
+        }
+      ],
+      "description": "Master fundamental concepts, principles and approaches of corporate finance including financial analysis and decision-making.",
+      "objectives": [
+        "Provide fundamental concepts and principles of corporate finance",
+        "Enable students to apply relevant principles in solving corporate finance problems",
+        "Understand the role of financial manager and basic financial management decisions"
+      ],
+      "topics": [
+        "Introduction: Forms of business, financial management decisions, goal of financial management, agency problem",
+        "Financial Statements: Balance sheet, income statement, cash flow, ratios, trend and Du Pont analysis",
+        "Time Value of Money: Future value, present value, discounting, annuity, DCF valuation",
+        "Risk and Return: Systematic and unsystematic risks, CAPM, security market line",
+        "Long-term Planning: Sources of financing, cost of capital, leverage, capital structure, M&M propositions",
+        "Short-term Management: Working capital, operating cycle, cash management, inventory, credit management",
+        "Capital Budgeting: NPV, IRR, payback, profitability index, scenario and sensitivity analysis",
+        "Dividend Policy: Residual approach, Walter model, Gordon Model, determinants",
+        "Security Valuation: Bond and stock valuation, dividend discount models, yields"
+      ],
+      "outcomes": [
+        "Understand and apply corporate finance principles",
+        "Conduct financial statement analysis using ratios and models",
+        "Make informed financial decisions using time value concepts",
+        "Evaluate investment opportunities using capital budgeting techniques"
+      ],
+      "books": [
+        "Principles of Corporate Finance by Brealey, Myers & Allen, McGraw-Hill",
+        "Financial Management: Theory and Practice by Ehrhardt & Brigham, Cengage",
+        "Fundamentals of Financial Management by Van Horne et al., Pearson",
+        "Financial Management by Pandey, Vikas Publishing"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.4,
+      "rating_count": 0
     },
     {
-      "elective_id": "e6",
-      "name": "Cloud Architecture",
-      "semester": "7th",
-      "department": "Computer Science",
-      "description": "Modern cloud computing platforms and distributed systems",
-      "avg_rating": 4.7,
-      "rating_count": 45
-    },
-    {
-      "elective_id": "e7",
-      "name": "Natural Language Processing",
-      "semester": "7th",
-      "department": "Computer Science",
-      "description": "Advanced techniques for processing and understanding human language",
-      "avg_rating": 4.9,
-      "rating_count": 51
-    },
-    {
-      "elective_id": "e8",
-      "name": "Bioinformatics",
-      "semester": "6th",
-      "department": "Biology & CS",
-      "description": "Computational methods for biological data analysis",
-      "avg_rating": 4.3,
-      "rating_count": 18
-    },
-    {
-      "elective_id": "e9",
-      "name": "Game Development",
-      "semester": "6th",
-      "department": "Computer Science",
-      "description": "Create interactive games using modern game engines",
+      "elective_id": "4",
+      "course_no": "UCS002",
+      "name": "Introduction to Cyber Security",
+      "department": "CSE",
+      "credits": "2.0",
+      "ltp": "2-0-0",
       "avg_rating": 4.8,
-      "rating_count": 62
+      "rating_count": 45,
+      "reviews": [
+        {
+          "user": "Lakshay Jain",
+          "rating": 5,
+          "comment": "Excellent intro to cybersecurity. Highly recommend!",
+          "pros": "Practical knowledge, Current threats covered",
+          "cons": "None",
+          "date": "2024-01-22"
+        },
+        {
+          "user": "Anushka Reddy",
+          "rating": 5,
+          "comment": "Eye-opening course on security. Very relevant today.",
+          "pros": "Hands-on labs, Real examples",
+          "cons": "Could be longer",
+          "date": "2024-02-28"
+        },
+        {
+          "user": "Yash Chawla",
+          "rating": 5,
+          "comment": "Great security fundamentals. Well taught!",
+          "pros": "Comprehensive, Engaging instructor",
+          "cons": "None",
+          "date": "2024-03-12"
+        }
+      ],
+      "description": "Learn essential cyber security concepts including threats, vulnerabilities, authentication, cryptography, and security management.",
+      "objectives": [
+        "Learn essential building blocks of cyber security",
+        "Understand concepts like confidentiality, integrity, availability, authentication, and risk",
+        "Explore security across programs, web, operating systems, and networks"
+      ],
+      "topics": [
+        "Introduction: Threats, vulnerabilities, controls, authentication, access control, cryptography",
+        "Programs: Non-malicious oversights, malware, countermeasures",
+        "Web Security: Browser attacks, targeting users, email attacks",
+        "OS Security: Security in OS design, rootkits",
+        "Network Security: Network threats, wireless security, DDoS, firewalls, IDS/IPS",
+        "Cloud Computing: Cloud concepts, security tools, identity management, securing IaaS",
+        "Privacy: Privacy principles, authentication, data mining, email security, emerging tech",
+        "Management: Security planning, business continuity, incident handling, risk analysis",
+        "Legal & Ethics: Protecting data, rights, redress, computer crime, ethical issues",
+        "Emerging: IoT, economics, computerized elections, cyber warfare"
+      ],
+      "outcomes": [
+        "Understand technical, social and political aspects of cyber security",
+        "Appreciate vulnerabilities and threats from criminals and nation states",
+        "Understand secure software development and operating systems",
+        "Recognize security management role in cyber defense and legal issues"
+      ],
+      "books": [
+        "Security in Computing by Pfleeger, Prentice Hall",
+        "Applied Cryptography by Schneier, John Wiley & Sons",
+        "Information Security: The Complete Reference by Rhodes-Ousley, McGraw-Hill"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.7,
+      "rating_count": 0
     },
     {
-      "elective_id": "e10",
-      "name": "Cybersecurity & Penetration Testing",
-      "semester": "7th",
-      "department": "Computer Science",
-      "description": "Security practices and ethical hacking techniques",
+      "elective_id": "5",
+      "course_no": "UPH064",
+      "name": "Nanoscience and Nanomaterials",
+      "department": "Physics",
+      "credits": "2.0",
+      "ltp": "2-0-0",
+      "avg_rating": 4.3,
+      "rating_count": 18,
+      "reviews": [
+        {
+          "user": "Aditya Saxena",
+          "rating": 4,
+          "comment": "Interesting course on nanotechnology.",
+          "pros": "Cutting-edge topic, Good visuals",
+          "cons": "Requires physics background",
+          "date": "2024-01-25"
+        },
+        {
+          "user": "Riya Verma",
+          "rating": 5,
+          "comment": "Fascinating! Learned about the nano world.",
+          "pros": "Interesting applications, Good explanations",
+          "cons": "Heavy on theory",
+          "date": "2024-03-05"
+        }
+      ],
+      "description": "Introduction to nanoscale science, quantum effects, synthesis methods, characterization techniques, and applications of nanomaterials.",
+      "objectives": [
+        "Introduce basic concepts of nanoscience and advanced nanotechnology applications",
+        "Understand quantum effects and properties at nanoscale",
+        "Learn synthesis and characterization techniques for nanomaterials"
+      ],
+      "topics": [
+        "Fundamentals: Features of nanosystems, free electron theory, band structures, density of states",
+        "Quantum Size Effect: Quantum confinement, Schrodinger equation, quantum wells, dots, and wires",
+        "Nano Materials: Classification, properties, fullerenes, nanotubes, nanowires, thin films, sensors",
+        "Synthesis: Sol-gel, cluster beam evaporation, ion beam deposition, chemical bath, ball milling, sputtering",
+        "Characterization: XRD, photoluminescence, electron microscopy, Raman, STEM, AFM",
+        "Applications: Photonic crystals, smart materials, fuel cells, solar cells, optoelectronic devices"
+      ],
+      "outcomes": [
+        "Discriminate between bulk and nano materials",
+        "Establish size and shape dependence of materials properties",
+        "Correlate quantum confinement with physical and chemical properties",
+        "Use synthesis methods to create nanoparticles and control their properties",
+        "Characterize nanomaterials and apply them in modern technologies"
+      ],
+      "books": [
+        "Nanotechnology by Booker & Boysen, Wiley India",
+        "Nanotechnology by Rogers, Pennathur & Adams, CRS Press",
+        "Nano Materials by Bandyopadhyay, New Age International",
+        "Nanobiotechnology by Niemeyer & Mirkin, Wiley VCH"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.3,
+      "rating_count": 0
+    },
+    {
+      "elective_id": "6",
+      "course_no": "UEN006",
+      "name": "Technologies for Sustainable Development",
+      "department": "Engineering",
+      "credits": "2.0",
+      "ltp": "2-0-0",
       "avg_rating": 4.6,
-      "rating_count": 31
+      "rating_count": 35,
+      "reviews": [
+        {
+          "user": "Aarav Gupta",
+          "rating": 5,
+          "comment": "Important course for sustainable tech. Highly relevant!",
+          "pros": "Important topic, Good examples",
+          "cons": "None",
+          "date": "2024-02-10"
+        },
+        {
+          "user": "Ishita Patel",
+          "rating": 5,
+          "comment": "Learned about green technologies. Very inspiring!",
+          "pros": "Relevant content, Future-focused",
+          "cons": "Could have more hands-on",
+          "date": "2024-03-18"
+        }
+      ],
+      "description": "Learn about cleaner production processes, renewable energy technologies, and green design for sustainable industrial development.",
+      "objectives": [
+        "Provide acquaintance with modern cleaner production processes",
+        "Understand emerging energy technologies",
+        "Facilitate understanding of green and renewable technologies for sustainable development"
+      ],
+      "topics": [
+        "Sustainability: Industrialization, cleaner production, source reduction, process optimization",
+        "Production Techniques: Material substitution, product design, reuse and recycling, waste recovery",
+        "Green Design: Green buildings, LEED certification, energy efficient design, passive solar, green materials",
+        "Renewable Energy: Solar, wind, tidal, biomass, hydropower, geothermal technologies",
+        "Emerging Concepts: Biomolecules and energy, fuel cells, fourth generation energy systems"
+      ],
+      "outcomes": [
+        "Comprehend basic concepts in source reduction and waste management",
+        "Identify and plan cleaner production processes for industrial sectors",
+        "Examine present and future advancements in renewable energy technologies"
+      ],
+      "books": [
+        "Clean Technology and the Environment by Kirkwood & Longley, Chapman & Hall",
+        "Pollution Prevention Handbook by World Bank Group",
+        "Cleaner Production Audit by Modak, Visvanathan & Parasnis, UNIDP",
+        "Energy Technology by Rao & Parulekar, Khanna Publications"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.8,
+      "rating_count": 0
+    },
+    {
+      "elective_id": "7",
+      "course_no": "UMA069",
+      "name": "Graph Theory and Applications",
+      "department": "Mathematics",
+      "credits": "2.0",
+      "ltp": "2-0-0",
+      "avg_rating": 4.5,
+      "rating_count": 22,
+      "reviews": [
+        {
+          "user": "Shubham Singh",
+          "rating": 5,
+          "comment": "Loved the theoretical depth. Great for CS students!",
+          "pros": "Thorough coverage, Good problem sets",
+          "cons": "Challenging for some",
+          "date": "2024-01-30"
+        },
+        {
+          "user": "Navya Iyer",
+          "rating": 4,
+          "comment": "Solid graph theory course with good applications.",
+          "pros": "Practical applications, Clear proofs",
+          "cons": "Fast paced",
+          "date": "2024-02-20"
+        }
+      ],
+      "description": "Study fundamental graph theory concepts including trees, algorithms, planar graphs, and applications to engineering problems.",
+      "objectives": [
+        "Introduce fundamental concepts in graph theory",
+        "Provide sense of modern applications of graph theory",
+        "Enable use of graph methods in computer science and engineering"
+      ],
+      "topics": [
+        "Introduction: Graphs, isomorphism, walks, paths, Euler and Hamilton paths, bipartite graphs",
+        "Trees: Distance, binary trees, spanning trees, minimum spanning tree",
+        "Algorithms: Shortest path, depth-first and breadth-first search, Huffman coding, Warshall's algorithm",
+        "Planar Graphs: Kuratowski's theorem, five-color theorem, graph representation",
+        "Coloring: Chromatic number, vertex and edge coloring, chromatic polynomial",
+        "Applications: Konigsberg bridge, utilities problem, electrical networks, Chinese postman, traveling salesman"
+      ],
+      "outcomes": [
+        "Understand basic concepts of graphs, directed graphs, and weighted graphs",
+        "Understand tree properties and find minimal spanning trees",
+        "Understand Eulerian and Hamiltonian graphs",
+        "Apply shortest path algorithms to solve problems",
+        "Apply graph knowledge to solve real life problems"
+      ],
+      "books": [
+        "Graph Theory with Application to Engineering by Deo, PHI",
+        "Introduction to Graph Theory by West, Pearson Education",
+        "Graph Theory with Applications by Bondy & Murty, North Holland",
+        "Discrete Mathematics and its Applications by Rosen, Tata-McGraw Hill"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.5,
+      "rating_count": 0
+    },
+    {
+      "elective_id": "8",
+      "course_no": "UBT510",
+      "name": "Biology for Engineers",
+      "department": "Biotechnology",
+      "credits": "2.0",
+      "ltp": "2-0-0",
+      "avg_rating": 4.4,
+      "rating_count": 30,
+      "reviews": [
+        {
+          "user": "Dhruv Mehta",
+          "rating": 4,
+          "comment": "Good intro to biology for engineering students.",
+          "pros": "Engineering perspective, Relevant examples",
+          "cons": "Could be more detailed",
+          "date": "2024-02-05"
+        },
+        {
+          "user": "Kavya Desai",
+          "rating": 5,
+          "comment": "Perfect blend of biology and engineering!",
+          "pros": "Interdisciplinary, Practical applications",
+          "cons": "None",
+          "date": "2024-03-14"
+        }
+      ],
+      "description": "Learn about living systems, cell biology, genetics, and fundamental biological concepts relevant to engineering applications.",
+      "objectives": [
+        "Learn about living world and basic functioning of biological systems",
+        "Understand origin of life, evolution, and central characteristics",
+        "Familiarize engineering students with intricate biological phenomena and mechanisms"
+      ],
+      "topics": [
+        "Characteristics of Life: Living vs non-living, origin, evolution, diversity, classification, phylogenetics",
+        "Biological Systems: Cell as basic unit, organelles, biomacromolecules (carbohydrates, lipids, proteins, DNA)",
+        "Cell Membrane: Structure, selective permeability, active and passive transport, channels and pumps",
+        "Genetics: Heredity, laws of genetics, DNA structure, central dogma, replication, transcription, translation"
+      ],
+      "outcomes": [
+        "Explain characteristic features of living systems vs non-living",
+        "Broaden engineering knowledge by applying concepts of living systems",
+        "Demonstrate familiarity with biological macromolecules",
+        "Understand biological systems by drawing parallels with thermodynamics",
+        "Design engineering products inspired by living creatures",
+        "Plan computational applications in bioinformatics"
+      ],
+      "books": [
+        "Lehninger: Principles of Biochemistry by Nelson & Cox, WH Freeman",
+        "A Textbook of Biology by Dhami, Srivastava & Chopra, Pradeep Publications",
+        "Textbook of Biotechnology by Das, John Wiley & Sons",
+        "Essential Cell Biology by Albert, Taylor & Francis"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.4,
+      "rating_count": 0
+    },
+    {
+      "elective_id": "9",
+      "course_no": "UMA070",
+      "name": "Advanced Numerical Methods",
+      "department": "Mathematics",
+      "credits": "2.0",
+      "ltp": "2-0-0",
+      "avg_rating": 4.6,
+      "rating_count": 20,
+      "reviews": [
+        {
+          "user": "Arnav Bansal",
+          "rating": 5,
+          "comment": "Excellent course on numerical analysis. Very useful!",
+          "pros": "Practical methods, Good MATLAB integration",
+          "cons": "Requires strong math background",
+          "date": "2024-01-28"
+        },
+        {
+          "user": "Tara Nair",
+          "rating": 5,
+          "comment": "Learned advanced computational methods. Great course!",
+          "pros": "Hands-on MATLAB, Real problems",
+          "cons": "Challenging",
+          "date": "2024-03-08"
+        }
+      ],
+      "description": "Master advanced numerical techniques for solving non-linear equations, polynomial equations, differential equations, and complex mathematical problems.",
+      "objectives": [
+        "Motivate students to understand advanced numerical techniques",
+        "Learn methods to solve mathematical problems governing engineering and physical problems"
+      ],
+      "topics": [
+        "Non-Linear Equations: Multiple roots, Muller's method, Newton-Raphson for systems and complex roots",
+        "Polynomial Equations: Descartes' rule, Birge-Vieta, Giraffe's methods",
+        "Linear Systems: Cholesky, partition methods, SOR with optimal relaxation",
+        "Eigen-Values: Similarity transformations, Gerschgorin's bounds, Given's and Rutishauser methods",
+        "Interpolation: Cubic and B-spline, bivariate interpolation, least squares, Gram-Schmidt, Legendre and Chebyshev",
+        "Differentiation & Integration: Using cubic splines, Romberg integration, multiple integrals",
+        "Differential Equations: Milne's, Adams-Moulton, shooting and finite difference methods"
+      ],
+      "outcomes": [
+        "Find multiple roots and apply Newton-Raphson for complex roots and non-linear systems",
+        "Obtain numerical solutions of polynomial equations using advanced methods",
+        "Apply Cholesky, Partition and SOR to solve linear systems",
+        "Approximate functions using spline and least square methods",
+        "Solve definite integrals and boundary value problems numerically"
+      ],
+      "books": [
+        "Applied Numerical Analysis by Gerald & Wheatley, Pearson Education",
+        "Elements of Numerical Analysis by Gupta, MacMillan India",
+        "Introduction to Numerical Analysis by Atkinson, John Wiley",
+        "Elementary Numerical Analysis by Conte & Boor, Tata McGraw Hill",
+        "Numerical Methods by Jain, Iyengar & Jain, New Age International"
+      ],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.6,
+      "rating_count": 0
+    },
+    {
+      "elective_id": "10",
+      "course_no": "UTD004",
+      "name": "Campus 2 Corporate",
+      "department": "Training",
+      "credits": "2.0",
+      "ltp": "2-0-0",
+      "avg_rating": 4.7,
+      "rating_count": 40,
+      "reviews": [
+        {
+          "user": "Siddharth Khanna",
+          "rating": 5,
+          "comment": "Must-take before placements! Very practical.",
+          "pros": "Interview prep, Resume building, Communication skills",
+          "cons": "None",
+          "date": "2024-02-12"
+        },
+        {
+          "user": "Meera Chopra",
+          "rating": 5,
+          "comment": "Helped me crack my dream job interview!",
+          "pros": "Practical skills, Industry insights",
+          "cons": "None",
+          "date": "2024-03-20"
+        },
+        {
+          "user": "Rahul Bhatt",
+          "rating": 5,
+          "comment": "Excellent placement preparation course!",
+          "pros": "Mock interviews, Good mentorship",
+          "cons": "Should be mandatory",
+          "date": "2024-03-25"
+        }
+      ],
+      "description": "Bridge the gap between academic learning and corporate requirements with practical skills, industry insights, and professional development.",
+      "objectives": [
+        "Prepare students for corporate environment transition",
+        "Develop practical skills required in industry",
+        "Provide insights into corporate culture and expectations"
+      ],
+      "topics": [
+        "Professional Skills: Communication, presentation, and teamwork",
+        "Corporate Culture: Work ethics, professionalism, and workplace behavior",
+        "Industry Requirements: Technical skills, problem-solving, and adaptability",
+        "Career Development: Resume building, interview skills, and networking"
+      ],
+      "outcomes": [
+        "Understand corporate expectations and work culture",
+        "Develop essential professional and soft skills",
+        "Prepare effectively for job interviews and career opportunities",
+        "Build strong professional network and personal brand"
+      ],
+      "books": [],
+      "evaluation": { "MST": 45, "EST": 55 },
+      "avg_rating": 4.7,
+      "rating_count": 0
+    }
+  ],
+  "basket_electives": [
+    {
+      "basket_id": "hpc",
+      "basket_name": "High Performance Computing",
+      "description": "Master advanced computing technologies including cloud, GPU, and parallel processing",
+      "avg_rating": 4.5,
+      "rating_count": 12,
+      "reviews": [
+        {
+          "user": "Akash Kumar",
+          "rating": 5,
+          "comment": "Excellent basket for those interested in HPC. All courses are well-coordinated.",
+          "pros": "Comprehensive coverage, Industry-relevant tools",
+          "cons": "Requires strong programming skills",
+          "date": "2024-02-08"
+        },
+        {
+          "user": "Shreya Bose",
+          "rating": 4,
+          "comment": "Great learning experience. GPU computing was my favorite!",
+          "pros": "Hands-on labs, Cutting-edge topics",
+          "cons": "Heavy workload",
+          "date": "2024-03-15"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "hpc1",
+          "course_no": "UCS531",
+          "name": "Cloud Computing",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Learn cloud infrastructure, services, virtualization, and implementation with hands-on experience in AWS, Hadoop, and modern cloud technologies.",
+          "objectives": [
+            "Learn the concepts of cloud infrastructure and services in addition with its implementation for assessment of understanding the course by the students"
+          ],
+          "topics": [
+            "Introduction and Evolution: Computing paradigms, business drivers, cluster and grid computing, XaaS offerings, security issues, impact on education",
+            "Cloud Implementations: Amazon Web Services (EC2, S3, SQS), AWS Identity Management, RESTful Web Services",
+            "Virtualization: Types (server, storage, network), VMware vCloud IaaS, Software Defined Networks, green data centers, server consolidation",
+            "Cloud Storage: Hadoop ecosystem (Pig, Hive, Cassandra, Spark), NoSQL databases, MapReduce framework, data replication",
+            "Related Technologies: Fog and Edge Computing, IoT and Big Data analytics, Google AppEngine, Windows Azure, role in smart healthcare",
+            "Sustainability: Cloud sustainability importance, global regulations, carbon footprint measurement, green software principles"
+          ],
+          "outcomes": [
+            "Comprehend the basic concepts and architecture of Cloud computing",
+            "Implement Cloud Services through AWS offerings and Restful web services",
+            "Apply the knowledge of virtualization through different virtualization technologies",
+            "Perform operations on data sets using Map Reduce framework, SQL and NO SQL databases"
+          ],
+          "books": [
+            "Cloud Computing: Principles and paradigms by Buyya, Broberg & Goscinski, MIT Press (2011)",
+            "Distributed and Cloud Computing by Hwang, Fox & Dongarra, Morgan Kaufmann (2012)",
+            "Cloud Computing by Miller, Que Publishing (2008)",
+            "Cloud Computing: Concepts, Technology & Architecture by Puttini & Mahmood, Service Tech Press (2013)"
+          ],
+          "lab_work": "Implement Cloud, Apache and Hadoop framework basics, MapReduce Java API, HDFS, RESTful Web Services, virtualization concepts, data storage, and MapReduce algorithms.",
+          "self_learning": "Cloud models, computing issues and challenges like Security, Elasticity, Resource management, Scheduling, QoS, Resource Allocation, Cost Management, Cloud bursting.",
+          "evaluation": { "MST": 45, "EST": 55 },
+          "avg_rating": 4.6,
+          "rating_count": 0
+        },
+        {
+          "elective_id": "hpc2",
+          "course_no": "UCS635",
+          "name": "GPU Computing",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Study GPU architecture and master programming techniques using CUDA, OpenCL, and OpenACC for massively parallel computing applications.",
+          "objectives": [
+            "To study architecture and capabilities of modern GPUs and learn programming techniques for the GPU such as CUDA programming model"
+          ],
+          "topics": [
+            "Introduction: Heterogeneous parallel computing, modern GPU architecture, power-efficient designs (DVFS, low power states), speeding up real applications, programming languages and models, energy consumption in data centers",
+            "GPU History: Evolution of graphics pipelines, fixed-function to programmable graphics, unified processors, GPGPU, scalable GPUs, recent developments and future trends",
+            "Data Parallelism & CUDA: Data parallelism concepts, CUDA program structure, vector addition kernel, device memory and data transfer, kernel functions and threading, parallelization techniques",
+            "Execution Model: Thread organization, mapping threads to multidimensional data, matrix multiplication kernel, synchronization, transparent scalability, resource assignment, thread scheduling and latency tolerance",
+            "CUDA Memories: Memory access efficiency, device memory types, tiled matrix multiplication, memory as parallelism limiting factor",
+            "OpenCL: Data parallelism model, device architecture, kernel functions, device management and kernel launch, electrostatic potential map",
+            "OpenACC: Comparison with CUDA, execution and memory models, basic programs, parallel and loop constructs, kernels construct, data management, asynchronous operations"
+          ],
+          "outcomes": [
+            "Comprehend commonly used terms in parallel computing",
+            "Understand common GPU architectures and Programming Models",
+            "Implement algorithms efficiently for common application kernels",
+            "Develop efficient parallel algorithms to solve given problems"
+          ],
+          "books": [
+            "CUDA by Example by Sanders & Kandrot, Addison-Wesley (2012)",
+            "Programming Massively Parallel Processors by Kirk & Hwu, Morgan Kaufmann (2016)",
+            "Introduction to Parallel Computing by Grama et al., Addison Wesley (2003)",
+            "GPU Computing Gems Emerald Edition by Hwu, Morgan Kaufmann (2011)"
+          ],
+          "lab_work": "Practice programs using CUDA, OpenCL and OpenACC for GPU computing.",
+          "self_learning": "Basics of Parallel and distributed Computing, CUDA programming model.",
+          "evaluation": { "MST": 45, "EST": 55 },
+          "avg_rating": 4.7,
+          "rating_count": 0
+        },
+        {
+          "elective_id": "hpc3",
+          "course_no": "UCS645",
+          "name": "Parallel & Distributed Computing",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Master parallel architectures, algorithm design, MPI programming, CUDA model, and distributed computing concepts for high-performance applications.",
+          "objectives": [
+            "Learn fundamentals of parallel and distributed computing including parallel architectures and paradigms",
+            "Apply parallel algorithms and key technologies",
+            "Develop basic parallel applications using programming models and tools"
+          ],
+          "topics": [
+            "Parallelism Fundamentals: Scope and issues, parallelism goals, parallelism and concurrency, multiple simultaneous computations",
+            "Parallel Architecture: Implicit parallelism, array and vector processors, Flynn's Taxonomy (UMA, NUMA), cache coherence, Feng's and Handler's classifications, memory system limitations, interconnection networks, communication costs, routing mechanisms, process-processor mapping, GPU, energy-efficient hardware and cooling",
+            "Parallel Decomposition & Performance: Algorithm design principles, decomposition and mapping techniques, load balancing, energy-efficient algorithms, critical paths, overhead sources, performance metrics and measurement, granularity effects",
+            "Distributed Computing: Definition, relation to parallel systems, synchronous vs asynchronous execution, design challenges, distributed computation models, communication networks, global state, process communication models",
+            "Message Passing & Shared Address: Send/receive operations, MPI interface, topologies and embedding, overlapping communication with computation, groups and communicators",
+            "CUDA Programming: Overview, data isolation, memory allocation on device, kernel function launching, data transfer to host, API function calls",
+            "Parallel Algorithms: Design, analysis, and programming, graph algorithms, green scheduling, matrix computations, critical paths and Amdahl's law, speedup and scalability, algorithmic patterns (divide-conquer, map-reduce), parallel merge sort, sustainability in distributed systems"
+          ],
+          "outcomes": [
+            "Apply the fundamentals of parallel and distributed computing including parallel architectures and paradigms",
+            "Apply parallel algorithms and key technologies",
+            "Develop and execute basic parallel applications using basic programming models and tools",
+            "Apply shared address space and message passing in programming platforms",
+            "Analyze the performance issues in parallel computing and trade-offs"
+          ],
+          "books": [
+            "Principles of Parallel Programming by Lin & Snyder, Addison-Wesley (2008)",
+            "Introduction to Parallel Computing by Grama et al., Addison Wesley (2003)",
+            "Heterogeneous Computing With OpenCL by Gaster et al., Morgan Kaufmann (2011)",
+            "Patterns for Parallel Programming by Mattson, Sanders & Massingill, Addison-Wesley (2004)",
+            "Parallel Programming in C with MPI and OpenMP by Quinn, McGraw-Hill (2004)"
+          ],
+          "lab_work": "Implement parallel programming using CUDA with emphasis on developing applications for processors with many computation cores, mapping computations to parallel hardware, efficient data structures, paradigms for efficient parallel algorithms.",
+          "self_learning": "Thread basics, synchronization primitives in Pthreads, controlling thread attributes, composite synchronization constructs, asynchronous program design, CUDA API functions, threads/blocks/grids concepts, kernel function development, parallel graph algorithms (shortest path, spanning tree), producer-consumer and pipelined algorithms.",
+          "evaluation": { "MST": 45, "EST": 55 },
+          "avg_rating": 4.5,
+          "rating_count": 0
+        },
+        {
+          "elective_id": "hpc4",
+          "course_no": "UCS751",
+          "name": "Simulation & Modelling",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Learn to create mathematical models of physical systems and their simulation for analysis, including queuing, inventory, and real-world applications.",
+          "objectives": [
+            "To become familiar with fundamentals of creating mathematical model of physical systems and their simulation for analysis"
+          ],
+          "topics": [
+            "Introduction to Modeling: Basic concepts, advantages, disadvantages, applications, limitations, model types, continuous vs discrete simulation, analog vs digital, system environment, components, simulation study steps, queuing and inventory system simulation",
+            "Random Numbers: Pseudo-random generators, testing pseudo-random generators, generation of non-uniformly distributed random numbers",
+            "Parallel Process Modeling: Using Petri nets and finite automata, cellular automata in simulation",
+            "Simulation Experiments: Run length of static and dynamic stochastic experiments, minimizing variability without increasing simulation runs",
+            "Simulator Design: Application simulators for multi-server queuing, PERT, optimizing inventory policy and cost in business",
+            "Input Modeling: Data collection, distribution identification with data, parameter estimation, goodness of fit tests, selection without data, multivariate and time series analysis",
+            "Verification & Validation: Model building, verification, calibration and validation",
+            "Output Analysis: Simulation types with respect to output, stochastic nature of output data, performance measures and estimation, terminating simulation analysis, steady state simulation analysis",
+            "Sustainability: Role in environmental sustainability (climate modeling, resource optimization), sustainable practices in education, healthcare, and urban planning, ethical considerations and long-term impact, energy-efficient simulation techniques, reducing carbon footprint through cloud-based simulation, eco-friendly computational models"
+          ],
+          "outcomes": [
+            "Describe the role of various elements of discrete event simulation and modeling paradigm",
+            "Conceptualize real world situations related to systems development decisions, originating from source requirements and goals",
+            "Generate and test random number variates and apply them to develop simulation models",
+            "Interpret the model and apply the results to resolve critical issues in a real-world environment",
+            "Classify various simulation models and their usage in real-life applications"
+          ],
+          "books": [
+            "Introduction to Simulation: Programming Techniques and Methods of Analysis by Payne, McGraw Hill (1982)",
+            "System Simulation by Gorden, Prentice Hall (1978)",
+            "Systems Simulation with Digital Computer by Narsingh, PHI Publication (2004)",
+            "Discrete Event System Simulation by Banks et al., Pearson Education (2010)"
+          ],
+          "lab_work": "Work on simulation tools, implementation of techniques to generate random numbers, apply simulation models in real life applications.",
+          "self_learning": "Different Simulation Softwares and their applications for different analysis, Trends in Simulation Software.",
+          "evaluation": { "MST": 45, "EST": 55 },
+          "avg_rating": 4.4,
+          "rating_count": 0
+        },
+        {
+          "elective_id": "hpc5",
+          "course_no": "UCS752",
+          "name": "Green Computing",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Explore sustainable computing practices, energy-efficient systems, and environmental impact of technology with practical implementations.",
+          "objectives": [
+            "Understand the environmental impact of computing and learn sustainable practices",
+            "Study energy-efficient hardware and software solutions",
+            "Implement green computing principles in real-world applications"
+          ],
+          "topics": [
+            "Introduction to Green Computing: Environmental impact of ICT, carbon footprint, e-waste management, sustainable development goals",
+            "Energy-Efficient Hardware: Low-power processors, energy-efficient memory systems, green data centers, cooling technologies",
+            "Software Optimization: Energy-aware algorithms, code optimization for efficiency, virtualization for resource consolidation",
+            "Renewable Energy in Computing: Solar-powered systems, wind energy integration, energy storage solutions",
+            "Green Cloud Computing: Energy-efficient cloud architectures, carbon-aware scheduling, sustainable cloud services",
+            "E-waste Management: Recycling technologies, circular economy in electronics, responsible disposal practices",
+            "Green IoT: Energy harvesting in IoT devices, low-power communication protocols, sustainable sensor networks",
+            "Policy and Standards: Green computing certifications, environmental regulations, corporate sustainability practices"
+          ],
+          "outcomes": [
+            "Analyze the environmental impact of computing systems and identify opportunities for improvement",
+            "Design and implement energy-efficient hardware and software solutions",
+            "Apply green computing principles to reduce carbon footprint in IT infrastructure",
+            "Evaluate and recommend sustainable practices for organizations"
+          ],
+          "books": [
+            "Green Computing: Tools and Techniques by Murugesan & Gangadharan, CRC Press (2012)",
+            "The Green Computing Book by Hernandez & Vaezi, CRC Press (2014)",
+            "Sustainable ICT: Principles and Practices by Plepys, Springer (2015)",
+            "Energy-Efficient Computing by Kim & Chong, Springer (2019)"
+          ],
+          "lab_work": "Measure and optimize energy consumption in computing systems, implement power management strategies, develop energy-aware applications, analyze carbon footprint of IT infrastructure.",
+          "self_learning": "Current trends in green computing, case studies of sustainable data centers, emerging renewable energy technologies for computing, green AI and machine learning practices.",
+          "evaluation": { "MST": 45, "EST": 55 },
+          "avg_rating": 0,
+          "rating_count": 0
+        }
+      ]
+    },
+    {
+      "basket_id": "cag",
+      "basket_name": "Computer Animation and Gaming",
+      "description": "Learn game development, 3D modeling, and immersive technologies",
+      "avg_rating": 4.7,
+      "rating_count": 15,
+      "reviews": [
+        {
+          "user": "Dev Sharma",
+          "rating": 5,
+          "comment": "Amazing basket! Built complete games and VR apps.",
+          "pros": "Creative projects, Modern tools",
+          "cons": "None",
+          "date": "2024-01-20"
+        },
+        {
+          "user": "Anjali Rao",
+          "rating": 5,
+          "comment": "Best basket for game dev enthusiasts!",
+          "pros": "Practical skills, Fun projects",
+          "cons": "Time intensive",
+          "date": "2024-02-28"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "cag1",
+          "course_no": "UCS532",
+          "name": "Computer Vision",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understand basic concepts of Computer Vision and apply various techniques in real-world applications with hands-on implementation.",
+          "objectives": [
+            "To understand the basic concepts of Computer Vision",
+            "The student must be able to apply the various concepts of Computer Vision in other application areas"
+          ],
+          "topics": [
+            "Digital Image Formation and Sustainable Image Preprocessing Techniques: Overview and State-of-the-art, Fundamentals of Image Formation, Transformation: Orthogonal, Euclidean, Affine, Projective, etc; Fourier Transform, Convolution and Filtering, Image Enhancement, Restoration, Histogram Processing",
+            "Image Representation & Description: Optimizing algorithms for low-energy consumption in edge devices - Canny, LOG, DOG; Lightweight Line detectors (Hough Transform), Corners - Harris and Hessian Affine, Orientation Histogram, SIFT, SURF, HOG, GLOH, LBP and its variants, Gabor Filters and DWT",
+            "Image Segmentation: Region Growing, Edge Based approaches to segmentation, Graph-Cut, Mean-Shift, MRFs, Texture Segmentation; Lightweight and energy-efficient object detection models (e.g., YOLO Nano, MobileNet SSD)",
+            "Pattern Analysis: Clustering: K-Means, Fuzzy C-means; Classification: Discriminant Function, Supervised, Un-supervised, Semi-supervised; Reducing data dimensionality to lower computational costs and storage requirements: PCA, LDA, ICA",
+            "Motion Analysis: Background Subtraction and Modeling, Optical Flow, KLT, Spatio-Temporal Analysis, Dynamic Stereo; Motion parameter estimation"
+          ],
+          "self_learning": "Miscellaneous: Applications: CBIR, CBVR, Activity Recognition, computational photography, Biometrics, stitching and document processing; Modern trends - super-resolution; GPU, Augmented Reality; cognitive models, fusion and SR&CS",
+          "lab_work": "To implement various techniques and algorithms studied during course.",
+          "outcomes": [
+            "Understand the fundamental problems of computer vision",
+            "Implement various techniques and algorithms used in computer vision",
+            "Analyse and evaluate critically the building and integration of computer vision algorithms and systems",
+            "Demonstrate awareness of the current key research issues in computer vision"
+          ],
+          "books": [
+            "Szeliski, R., Computer Vision: Algorithms and Applications, Springer-Verlag London Limited (2011), 1st Edition",
+            "Forsyth, A., D. and Ponce, J., Computer Vision: A Modern Approach, Pearson Education (2012) 2nd Edition",
+            "Hartley, R. and Zisserman, A., Multiple View Geometry in Computer Vision Cambridge University Press (2003) 2nd Edition",
+            "Fukunaga, K., Introduction to Statistical Pattern Recognition, Academic Press, Morgan Kaufmann (1990) 2nd Edition",
+            "Gonzalez, C., R. and Woods, E., R. Digital Image Processing, Addison-Wesley (2018) 4th Edition"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "cag2",
+          "course_no": "UCS636",
+          "name": "3D Modelling and Animation",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Develop skills in 3D Modeling & Animation for multimedia industry, covering modeling, texturing, rigging, and character animation.",
+          "objectives": [
+            "To develop the skill & knowledge in 3D Modeling & Animation",
+            "Students will understand the know-how and can function either as an entrepreneur or can take up jobs in the multimedia and animation industry, video studios, edit set-up and other special effects sectors"
+          ],
+          "topics": [
+            "3D Object Modelling: Basic modelling concepts, vertices, edges, and faces, basic transformations, pivot points, duplication and merging, extrusion, insetting, modifiers, loop cuts and face loops, subdivision methods, coordinate system and exporting, Energy-Efficient rendering model",
+            "Low Poly Models: Triangular meshes, objects and mesh data, cursor and origins hidden geometry, Boolean modifiers, geometry from curve, curve resolution, non-planner geometry",
+            "3D Character Modelling: Introduction, character modelling, unwrapping UVs & mapping texture, Low-Impact texturing painting, armatures, Eco-Themed Characters rigging, constrained movements, forward and inverse kinematics, time-line, keyframes, character animation, Optimized Rendering Pipelines",
+            "Physically Based Modelling and Animation: Introduction, Energy-Efficient Simulations Foundation, Particle based Models, Collision detection and response, Particle System, Particle Simulation, Particle Rendering, Numerical Integration in Particle System, Deformable Meshes, Rigid Bodies and Constrained Dynamics, Fluid Simulation"
+          ],
+          "self_learning": "Real Time Animation: Splines and curves, Key-frame techniques, Quaternions for rotations / orientations, Blending and interpolation, Kinematics, Motion capture systems, Motion graphs and character control, Animation data representations, Behavioural Animation, Facial Animation, Perception in animation",
+          "lab_work": "This course covers beginner to intermediate 3D Modeling and Animation. In this Lab the students will be able to model the 3D character and objects, its UV Mapping, Texture Painting, Rigging, and Animation. Evaluation will be mainly via projects and assignments taking a creative approach to expressive 3D modelling and Animation.",
+          "outcomes": [
+            "Apply modelling concepts in order to implement 3D objects (Blender / Max)",
+            "Understand the basic geometry and triangulation techniques behind low poly models",
+            "Implement 3D humanoid characters and to apply the concept of rigging for animating the character using key frames",
+            "Illustrate the theoretical and practical aspects of 3D Modelling, Key Frame Animation, Simulation & effects",
+            "Demonstrate different types of animation and its effects in the real world",
+            "Analyse the different processes, post processes involved in computer animation field"
+          ],
+          "books": [
+            "House, H., D. and Keyser, C., J., Foundations of Physically Based Modeling and Animation, CRC Press (2017) 1st Edition",
+            "Chopine, A., 3D Art Essentials: The Fundamentals of 3D Modeling, Texturing, and Animation, Focal Press (2011) 1st Edition",
+            "Zeman, B., N., Essential Skills for 3D Modeling, Rendering, and Animation, A K Peters / CRC Press (2017) 1st Edition",
+            "Villar, O., Learning Blender: A Hands-On Guide to Creating 3D Animated Characters, Addison Wesley (2017) 2nd Edition",
+            "Kerlow, I., The Art of 3D Computer Animation and Effects, Wiley, (2009) 4th Edition",
+            "Flavell, L., Beginning Blender: Open Source 3D Modelling, Animation, and Game Design, Apress, (2010) 1st Edition",
+            "Boardman, T., 3dsmax 7 Fundamentals, New Riders, (2005) 1st Edition"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "cag3",
+          "course_no": "UCS646",
+          "name": "Game Design & Development",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Become familiar with fundamental and advanced gaming concepts including math, physics, and practical game development using Unity 3D.",
+          "objectives": [
+            "To become familiar with various fundamental and advanced gaming concepts including basic maths and physics used behind the game engine"
+          ],
+          "topics": [
+            "Introduction: Types of games, History, Impact of Games on Society, Game life cycle, Game loop, Components of game, Model and scene rendering, State Management, Scene management, Texture compression, Level of details, Frustum culling, Occlusion culling, Game as a software, Steps for Game Design, Data Structure for Game, CPU vs.GPU, Game Engine, Components of game engine, Linear Transformation, Composite transformation",
+            "Fundamental Gaming concepts: Static and Dynamic Game objects, Vectors, Concept of Time, Lighting, Particle System, Collider, Collision handles, Materials, Texture mapping, Input Process, Object replication, Instantiation, Special Effects, Terrain, Audio design and production, Ray Casting",
+            "Maths behind Game Engines: Introduction to Vectors- Addition & Subtraction, Vector length, Scaling, Unit length vectors, Dot & Cross product, Linear Interpolation, Euler Angles, Intersection, Matrices, Coordinate systems, Projections, Triangle Meshes, Optimizations, Quaternion",
+            "Advanced Games: Augmented Reality, Virtual Reality, Mixed Reality, AR & VR based Games, Artificial Intelligence based Game, Networking based game, Android based games, Debugging mode, Understanding of Screen and World Coordinate system, Raycasting, Touch & Swipe Input: Touch in Orthographic view, Touch in Perspective view, Accelerometer input, Scaling of Game screen, AR/VR/Android/iOS/Windows Game Deployment methods, Integrating game mechanics into e-learning tools and fitness-focused games that encourage physical activity"
+          ],
+          "self_learning": "Game Physics: Mathematical concepts, Basic transformations, Collision Detection and response, Newton's law of motion, Modeling gravity, Air resistance, Unstable rotation, Inertia tensor, Moment of Inertia, Applying torque to rigid body, The Magnus effect, Overview of friction, Critical angle, Dynamic Friction",
+          "lab_work": "2D and 3D game development for windows and android platform using Unity 3D Game Engine and C# language.",
+          "outcomes": [
+            "Illustrate the basic concepts, requirements and processes of game design and development",
+            "Implement the fundamental gaming concepts to create a game",
+            "Understand the physics and mathematics behind the game engine",
+            "Demonstrate the advanced gaming concepts such as AR, VR, Android etc",
+            "Develop a 2D/3D game using C# and Unity 3D Game engine"
+          ],
+          "books": [
+            "Eberly H. D., Game Physics, Morgan Kaufmann Publisher (2010), 2nd ed",
+            "Bond G. J., Introduction to Game Design, Prototyping, and Development: From Concept to Playable Game with Unity and C#, Addison-Wesley (2015), 2nd ed",
+            "House H. D., Keyser C. J, Foundations of Physically Based Modeling and Animation, CRC Press (2017), 1st ed",
+            "Okita. A., Learning C# Programming with Unity 3D, CRC Press (2014), 1st ed"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "cag4",
+          "course_no": "UCS752",
+          "name": "Augmented and Virtual Reality",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Become familiar with AR & VR concepts, applications, and develop immersive immersive applications using various algorithmic techniques.",
+          "objectives": [
+            "To become familiar with the concept and applications of augmented & virtual reality and learn different types of algorithmic techniques and strategies"
+          ],
+          "topics": [
+            "Introduction of Augmented Reality (AR): Definition and Applications, History, Types of AR, Suitable devices, Holograms, Mixed reality, Ubiquitous computing, AR Displays: Method of Augmentation, Spatial Display Model",
+            "Tracking in AR: Basic steps of AR, Tracking, Occlusion, Calibration, Registration, Co-ordinate Systems: Model-View-Projective Transformation, Frame of reference, Characteristics of Tracking Technology: Physical Phenomenon, Triangulation, Trilateration, Measurement Principles, Degree of Freedom, Stationary Tracking System, Mobile Tracking, Optical Tracking, Sensor Fusion",
+            "Computer Vision for AR: Marker Tracking, Thresholding, Contour detection, Hough Transformation, Quadrilateral fitting, SIFT, Pose Estimation, Homography, Incremental Tracking, SLAM: Bundle Adjustment, Parallel Tracking and Mapping, Outdoor Tracking, STML",
+            "Virtual Reality: Definition, History, Application, Types of VR, Components of VR, VR-HMDs and their working, Geometric modeling, Modeling Transformation, Viewing transformation Chain and Rendering Pipeline, Light and Optical System, Rendering Problems in VR, Shading Models, Rasterization, Depth, Motion and Auditory Perception, Rendering, Post Rendering Image Warping, AR/VR for interactive and immersive applications in STEM"
+          ],
+          "self_learning": "Calibration and Registration: Camera Representation, Camera Calibration, Display Calibration, Registration, Visual Coherence, Photometric Registration, Common Illumination, Diminished Reality, Camera Simulation, Stylized Augmented Reality",
+          "lab_work": "To implement various techniques studied during course.",
+          "outcomes": [
+            "Analyze the components of AR systems, its current and upcoming trends, platforms, and devices",
+            "Understand the basic steps and technologies required to achieve AR system",
+            "Apply various well-known computer vision algorithms in order to implement the AR",
+            "Understand the various components, applications, latest devices and working model of VR systems",
+            "Develop interactive augmented and virtual reality applications for PC and Mobile based devices using a variety of input devices"
+          ],
+          "books": [
+            "Dieter Schmalstieg, Tobias Höllerer, Augmented-Reality-Principles-and-Practice-Usability-, Addison-Wesley (2016) 1st ed",
+            "Parisi T., Learning Virtual Reality, O'Reilly (2016) 1st ed",
+            "Gerard Jounghyun Kim, Designing Virtual Reality Systems: The Structured Approach, Springer (2005) 1st ed",
+            "Whyte J., Virtual Reality and the Built Environment, Architectural Press (2002)",
+            "Aukstakalnis S., Practical Augmented Reality: A Guide to the Technologies, Applications, and Human Factors for AR and VR, Addison-Wesley (2016)"
+          ],
+          "evaluation": {
+            "mst": 25,
+            "est": 40,
+            "sessional": 35
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "ics",
+      "basket_name": "Information and Cyber Security",
+      "description": "Master cybersecurity, secure coding, and blockchain technologies",
+      "avg_rating": 4.6,
+      "rating_count": 18,
+      "reviews": [
+        {
+          "user": "Rohan Tiwari",
+          "rating": 5,
+          "comment": "Perfect for aspiring security professionals. Very comprehensive!",
+          "pros": "Industry-relevant, Hands-on labs",
+          "cons": "Challenging",
+          "date": "2024-02-14"
+        },
+        {
+          "user": "Nisha Patel",
+          "rating": 5,
+          "comment": "Learned everything about cybersecurity. Highly recommend!",
+          "pros": "Complete security coverage, Practical",
+          "cons": "None",
+          "date": "2024-03-22"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "ics1",
+          "course_no": "UCS534",
+          "name": "Computer & Network Security",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Imparts critical theoretical and detailed practical knowledge of computer network security technologies and tools.",
+          "objectives": [
+            "To impart critical theoretical and detailed practical knowledge of a range of computer network security technologies",
+            "To provide hands-on experience with network security tools"
+          ],
+          "topics": [
+            "Introduction: Security Attacks, Security Services, Security Mechanisms and Principles, Security goals, Malicious software, Worms, Viruses, Trojans, Spyware, Botnets, Life cycle of a vulnerability: CAN and CVE, Environmental impact of network security infrastructure, e-waste, and lifecycle analysis",
+            "Computer Security: Set-UID programs, privileged programs, environment variables: hidden inputs, capability leaking, invoking other programs, principle of least privileges. Environment variables and attacks, attacks via dynamic linker, external program and library. Shellshock attack, exploiting shellshock vulnerability. Buffer overflow attacks: program memory layout, stack and function invocation. Writing a shell code, injecting code into buffer, address space layout randomization, Stack Guard",
+            "Network Security: Packet sniffing and spoofing, Attacks on TCP protocol, SYN flood, TCP reset attack, session hijacking attack, Firewalls: Packet filter, Stateful firewall, Application firewall. IP tables, DNS poisoning, Authoritative replies, ARP poisoning, Heartbleed Bug and Attack, Public key infrastructure and Transport Layer Security, Optimizing network security for energy-efficient data transmission"
+          ],
+          "self_learning": "Advanced topics in network security, penetration testing methodologies, security auditing practices",
+          "lab_work": "Demonstrate use of Environment variables and privileged programs, Implementing secure network protocols with resource optimization, Demonstrate Buffer Overflow and showcase EIP and other register status, insert malicious shell code into a program file and check its malicious or benign status, perform ARP poisoning, implement stateful firewall using IPTables",
+          "outcomes": [
+            "Identify software vulnerabilities and apply various security mechanisms to protect against security attacks",
+            "Demonstrate shellshock attack and its countermeasure",
+            "Demonstrate buffer-overflow attack, locate and fix security leaks in a computer software",
+            "Implement firewall and its variants",
+            "Implement PKI and TLS"
+          ],
+          "books": [
+            "Stallings, W., Network Security Essentials, Prentice Hall (2017) 6th Edition",
+            "Cheswick, R., W., Bellovin, M., S., and Rubin, D., A., Firewalls and Internet Security, Addison Wesley Professional (2003) 2nd Edition",
+            "Wenliang Du, Computer Security: A hands-on approach, CreateSpace (2017)",
+            "Graves, K., Certified Ethical Hacking Study Guide, Sybex (2010) 1st Edition",
+            "Stallings, W., Cryptography and Network Security, Prentice Hall (2013), 6th Edition"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ics2",
+          "course_no": "UCS638",
+          "name": "Secure Coding",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides understanding of security attacks and knowledge to recognize and remove common coding errors that lead to vulnerabilities.",
+          "objectives": [
+            "To provide understanding of various security attacks",
+            "To provide knowledge to recognize and remove common coding errors that lead to vulnerabilities",
+            "To outline techniques for developing secure applications"
+          ],
+          "topics": [
+            "Introduction: Security, CIA Triad, Viruses, Trojans, and Worms, Security Concepts- exploit, threat, vulnerability, risk, attack, Rootkits, Trapdoors, Botnets, Key loggers, Honeypots. Active and Passive Security Attacks",
+            "Need for secure systems: Proactive Security development process, Secure Software Development Cycle (SSDLC), Security issues while writing SRS, Design phase security, Development Phase, Test Phase, Maintenance Phase, Writing Secure Code – Best Practices SD3 (Secure by design, default and deployment), Security principles and Secure Product Development Timeline, Case studies on secure coding practices for environmental monitoring systems",
+            "Threat modelling process and its benefits: Identifying the Threats by Using Attack Trees and rating threats using DREAD, Risk Mitigation Techniques and Security Best Practices. Security techniques, authentication, authorization. Defense in Depth and Principle of Least Privilege, Threat modeling in smart healthcare and education systems",
+            "Software & Web Security: Return-to-libc attack, format string vulnerability. Race condition vulnerability, Dirty COW, PE Code injection. Cross site request forgery: CSRF attacks on HTTP GET and POST services & countermeasures. XSS attack: self-propagating XSS worm, preventing XSS attacks, SQL injection attack & countermeasures. Client-side attacks"
+          ],
+          "self_learning": "Advanced secure coding patterns, security testing methodologies, code review best practices",
+          "lab_work": "In this Lab, student shall learn to recognize and remove common coding errors that lead to vulnerabilities. This lab also gives an outline of the techniques for developing a secure application code, implementing different types of attacks and protection schemes for both software and web security. Evaluation will be mainly based on projects and assignments",
+          "outcomes": [
+            "Demonstrate skills needed to deal with common programming errors and develop secure applications",
+            "Implement PE Code injection and demonstrate control hijacking via EIP manipulation",
+            "Demonstrate client-side attacks and identify nature of threats to software and incorporate secure coding practices throughout the planning and development of software product",
+            "Demonstrate SQL injection, XSS attack and suggest countermeasures for the same"
+          ],
+          "books": [
+            "Howard, M. and LeBlanc, D., Writing Secure Code, Howard, Microsoft Press (2002) 2nd Edition",
+            "Deckard, J., Buffer Overflow Attacks: Detect, Exploit, Syngress (2005) 1st Edition",
+            "Wenliang Du, Computer Security: A hands-on approach, CreateSpace (2017)",
+            "Swiderski, F. and Snyder, W., Threat Modeling, Microsoft Professional, (2004) 1st Edition",
+            "Salt, C., J., SQL Injection Attacks and Defence, Elsevier (2012), 2nd Edition"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ics3",
+          "course_no": "UCS648",
+          "name": "Cyber Forensics",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Maintains appropriate level of awareness, knowledge and skill required to understand and recreate criminal terminology and Cyber Forensics investigation process.",
+          "objectives": [
+            "To maintain appropriate level of awareness, knowledge and skill required to understand and recreate criminal terminology",
+            "To understand Cyber Forensics investigation process"
+          ],
+          "topics": [
+            "Introduction to Cybercrime: Defining Cybercrime, Understanding the Importance of Jurisdictional Issues, Quantifying Cybercrime, Differentiating Crimes That Use the Net from Crimes That Depend on the Net, working toward a Standard Definition of Cybercrime, Categorizing Cybercrime, Developing Categories of Cybercrimes, Prioritizing Cybercrime Enforcement, Reasons for Cybercrimes, Role of Cybercrime in Hindering Sustainable Development",
+            "Understanding the People on the Scene: Understanding Cybercriminals, Profiling Cybercriminals, Categorizing Cybercriminals, Understanding Cyber victims, Categorizing Victims of Cybercrime, Making the Victim Part of the Crime-Fighting Team, Understanding Cyber investigators, Recognizing the Characteristics of a Good Cyber investigator, Categorizing Cyber investigators by Skill Set, Analyzing Gendered Aspects of Cyber Victimization, Digital Literacy and Awareness Campaigns",
+            "Computer Investigation Process: Demystifying Computer/Cybercrime, Investigating Computer Crime, How an Investigation Starts, Investigation Methodology, Securing Evidence, Before the Investigation, Professional Conduct, Investigating Company Policy Violations, Policy and Procedure Development, Policy Violations, Warning Banners, Conducting a Computer Forensic Investigation, The Investigation Process, Assessing Evidence, Acquiring Evidence, Examining Evidence, Documenting and Reporting Evidence, Closing the Case",
+            "Acquiring, Duplicating and Recovering Deleted Files: Recovering Deleted Files and Deleted Partitions, recovering \"Deleted\" and \"Erased\" Data, Data Recovery in Linux, Recovering Deleted Files, Recovering Deleted Partitions, Data Acquisition and Duplication, Data Acquisition Tools, Recovering Data from Backups, Finding Hidden Data, Locating Forgotten Evidence, Defeating Data Recovery Techniques, Responsible Consumption of Digital Resources during Forensic Investigations",
+            "Collecting and Preserving Evidence: Understanding the Role of Evidence in a Criminal Case, Defining Evidence, Admissibility of Evidence, Forensic Examination Standards, Collecting Digital Evidence, Evidence Collection, Preserving Digital Evidence, Preserving Volatile Data, Special Considerations, Recovering Digital Evidence, Deleted Files, Computer Forensic Information, Understanding Legal Issues, Searching and Seizing Digital Evidence",
+            "Building the Cybercrime Case: Major Factors Complicating Prosecution, Difficulty of Defining the Crime, Jurisdictional Issues, The Nature of the Evidence, Human Factors, Overcoming Obstacles to Effective Prosecution, The Investigative Process, Investigative Tools, Steps in an Investigation, Defining Areas of Responsibility"
+          ],
+          "self_learning": "Deleted Partition Recovery Tools, Deleted File Recovery Tools, Data Acquisition and Duplication Tools, Defeating Data Recovery Techniques, Data Recovery Software and Documentation, Computer Forensic Resources, Computer Forensic Training and Certification, Computer Forensic Equipment and Software, Computer Forensic Services",
+          "lab_work": "Hands with open source tools for forensic investigation process models (from Item confiscated to submitting evidence for lawful action), such as FTK, Sleuth Toolkit (TSK), Autopsy, etc.",
+          "outcomes": [
+            "Familiarize with cybercrime & forensics ontology",
+            "Investigation of crime scene and acquisition of digital evidence",
+            "Recovery and analysis of digital data of evidential value",
+            "Investigate computer based crime and create document for judicial proceedings"
+          ],
+          "books": [
+            "Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.",
+            "Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012)",
+            "Nina Godbole, Sunit Belapure, Cyber Security, Wiley (2011)",
+            "Marcella J. A. and Menendez D., Cyber Forensics: A Field Manual for Collection, Examining and preserving Evidence of computer crimes. Auerbach Publication (2010), 2nd ed.",
+            "Dejey, Murugan, Cyber Forensics, Oxford (2018)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ics4",
+          "course_no": "UCS754",
+          "name": "Blockchain Technology and Applications",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides exposure on blockchain technology and its real-time applications.",
+          "objectives": ["To provide exposure on blockchain technology and its real-time applications"],
+          "topics": [
+            "Basic Cryptography: Introduction to cryptography and cryptanalysis, Cryptographic issues, cryptographic components, cryptographic techniques, cryptographic categories: symmetric key and asymmetric key cryptography, traditional ciphers, modern ciphers, message integrity, message authentication, key management, digital signatures, entity authentication, ECDSA, ECC, Ring, One time signature, Hashing: SHA-356, SHA-512, TLS and SSL, Timestamp, Public and Private keys, Merkle root hash",
+            "Bitcoin Cryptocurrencies: What is Bitcoin, Brief history of Bitcoin, Bitcoin mining and supply, Bitcoin cryptocurrency (BTC), Traditional centralized vs. decentralized, Bitcoin's blockchain: evolution of blockchain, block header, genesis block, hash generation, Bitcoin address: formats, hash generation, address structure, transactions: multi-signatures, generating transactions, storing data, block verification and validation, block mining",
+            "Smart Contracts: Introduction to smart contracts, smart contracts used in a centralized and decentralized systems, Blockchain platforms using smart contracts: Ethereum, architecture of Ethereum virtual machine, token- ETH, Mining process, ERC- standards, transactions in Ethereum, Hyperledger fabric, Sidechains, NXT, Stellar, R3Conda, Litecoin, Quorum, IBM, Openchain, Eris:db, Case studies related to smart contracts for transparent aid distribution",
+            "Consensus Mechanisms: Double spending problem, BFT, PBFT, PoW, PoS, DPoS, PoA, PoB, PoR, PoET, PoI, PoO, PoSp, PoC, Ripple, Tendermint, energy consumption of traditional consensus mechanisms and alternative eco-friendly mechanisms",
+            "Applications of Blockchain: Financial system, smart grid, healthcare, smart transportation system, e-Governance, education, exchange and trading, online market place, commercial supply chain, food production, drug manufacturing, safety and security"
+          ],
+          "self_learning": "Advanced blockchain architectures, decentralized applications (dApps), blockchain scalability solutions",
+          "lab_work": "Experiments on creating of blockchain, implementation of smart contract on Python, Conda and Ethereum, Solidity, Implementing carbon credit systems using blockchain",
+          "outcomes": [
+            "Create their own blockchain using Block creation and verification",
+            "Create the smart contracts for transaction execution",
+            "Evaluate the performance of blockchain in presence of various attacks",
+            "Develop and validate various security models for real-life applications"
+          ],
+          "books": [
+            "Melanie Swan, Blockchain: Blueprint for a new economy, Oreilly publications",
+            "Bellaj Badr, Richard Horrocks and Xun Brian Wu, Blockchain by example, Packt Publications",
+            "Fatima Castiglione Maldonado, Introduction to Blockchain and Ethereum, Packt Publications"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "fd",
+      "basket_name": "Financial Derivative",
+      "description": "Master financial markets, derivatives, and quantitative methods",
+      "avg_rating": 4.4,
+      "rating_count": 10,
+      "reviews": [
+        {
+          "user": "Arjun Gupta",
+          "rating": 4,
+          "comment": "Great for those interested in fintech. Good balance of theory and practice.",
+          "pros": "Industry tools, Real market data",
+          "cons": "Requires finance background",
+          "date": "2024-01-25"
+        },
+        {
+          "user": "Priya Singh",
+          "rating": 5,
+          "comment": "Excellent preparation for quant roles!",
+          "pros": "Comprehensive, Practical skills",
+          "cons": "Mathematically intensive",
+          "date": "2024-03-10"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "fd1",
+          "course_no": "UCS539",
+          "name": "Finance, Accounting and Valuation",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding relationship of finance, accounting and valuation of securities.",
+          "objectives": ["Understanding relationship of finance, accounting and valuation of securities"],
+          "topics": [
+            "Introduction to Accounting: Meaning of accounting, the accounting process, fundamental equation, types of accounts, accounting statements, recording of transactions, conceptual framework",
+            "Summary Statements: Types of summary statements, preparation of the statements, relationship between the statements, introduction to financial statement analysis",
+            "Basics of Finance: Meaning of finance, process of financial decision making, types of financial decisions, capital structure decisions",
+            "Time Value of Money: Meaning, principle, calculations, interest rates, importance of interest rates, importance of different types of interest rates and returns",
+            "Valuation: Introduction to valuation, valuation of stocks, valuation of bonds, methods and techniques"
+          ],
+          "self_learning": "Advanced valuation techniques, corporate finance strategies, investment analysis",
+          "lab_work": "Practical sessions to gain an understanding of proprietary software for international derivatives. Introduction to proprietary software, detailed understanding of basic features, understanding order types and their implementation, regular practice to understand execution of basic strategies, introduction to trading and investment, introduction to analytical methods",
+          "prerequisites": "Basics of Microsoft Excel",
+          "outcomes": [
+            "Explain the basic accounting concepts and apply the fundamental equation in basic business transactions",
+            "Explicate and apply the techniques learnt for doing financial statement analysis",
+            "Explain various financial decisions and evaluate some of them",
+            "Explicate the principle of time value of money (TVP) and importance of interest rates in TVP",
+            "Apply the methods learnt for valuation of securities"
+          ],
+          "books": [
+            "Jamie Pratt. (8th Edition). Financial Accounting in an Economic Context",
+            "Ross, Westerfield, Jaffe & Jordan. Corporate Finance: Core Principles and Applications"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fd2",
+          "course_no": "UCS675",
+          "name": "Financial Markets and Portfolio Theory",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding various financial markets and their interrelationships.",
+          "objectives": ["Understanding various financial markets and their interrelationships"],
+          "topics": [
+            "Banks and Financial Institutions: Types of financial institutions, evolution of financial system, flow of money, creation of money",
+            "Monetary System: Monetary authority, monetary policy framework, policy tools, comparison of different countries",
+            "Risk and Return: Meaning of risk, meaning of return, estimation of risk and return",
+            "Capital and Money Markets: Meaning, types, capital and money market instruments",
+            "Portfolio Theory: Meaning of portfolio, theoretical principles, choices, optimal weights, optimal portfolio choice, introduction to pricing models"
+          ],
+          "self_learning": "Advanced portfolio management, risk management strategies, financial derivatives",
+          "lab_work": "Practical sessions to use the proprietary software in live international derivatives. Introduction to an international derivatives product, introduction to technical analysis, practice of analytical methods on the proprietary software, introduction to evaluation methods",
+          "prerequisites": "Course - Finance, Accounting and Valuation",
+          "outcomes": [
+            "Explain the role of the financial system and the process of creation of money",
+            "Explicate various monetary policy tools",
+            "Explain relationship between risk and return",
+            "Explicate the types of capital markets and money markets including the market instruments",
+            "Apply the portfolio theory to choose an optimal portfolio"
+          ],
+          "books": [
+            "Financial Markets and Institutions - Anthony Saunders & Marcia Millon Cornett",
+            "Ross, Westerfield, Jaffe & Jordan. Corporate Finance: Core Principles and Applications"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fd3",
+          "course_no": "UCS658",
+          "name": "Derivatives Pricing, Trading and Strategies",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding methods of valuation and strategies of trading derivative instruments.",
+          "objectives": ["Understanding methods of valuation and strategies of trading derivative instruments"],
+          "topics": [
+            "Law of One Price: Meaning, implication of the law of one price, no arbitrage model, usage in pricing of securities and derivative instruments",
+            "Pricing and Valuation: Basic principles, building blocks, assumptions, difference between price and value, pricing and valuation of basic derivative instruments",
+            "Basics of Option Pricing: Meaning of options, types of options, difference between options and basic derivative instruments"
+          ],
+          "self_learning": "Advanced derivatives strategies, options trading, risk hedging techniques",
+          "lab_work": "Practical sessions to use the proprietary software in live international derivatives. Introduction to derivatives strategies, introduction to an additional international derivatives product, learning and creating trading strategies, practicing the strategies on the proprietary software, understanding the role of derivatives in risk reduction",
+          "prerequisites": "Courses Finance, Accounting and Valuation + Financial Markets and Portfolio Theory",
+          "outcomes": [
+            "Explain and apply the law of one price in pricing models",
+            "Explicate and apply formulae to calculate price and value of a generic forward contract",
+            "Explain and apply formulae to calculate price and value of basic derivative instruments",
+            "Explicate the meaning and types of options",
+            "Apply the basic methods to calculate option prices"
+          ],
+          "books": [
+            "Fundamentals of Futures and Options Markets - John C. Hull",
+            "Ross, Westerfield, Jaffe & Jordan. Corporate Finance: Core Principles and Applications"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fd4",
+          "course_no": "UMC743",
+          "name": "Quantitative and Statistical Methods for Finance",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding quantitative and statistical methods used for finance and derivatives.",
+          "objectives": ["Understanding quantitative and statistical methods used for finance and derivatives"],
+          "topics": [
+            "Refresher on Statistics: Correlation, OLS regression, probability distributions and moments, using Microsoft Excel for statistical calculations and interpretations",
+            "Option Pricing: Introduction to option pricing models, formulae and derivation, option Greeks, risk management using options",
+            "Financial Time Series: Introduction to time series, types, univariate and multivariate time series models, autocorrelation, AR models, MA models, ARMA models, ARIMA models, stationary series, unit-root",
+            "Volatility: Meaning of volatility, types, methods of calculation, volatility models, estimation"
+          ],
+          "self_learning": "Advanced quantitative modeling, algorithmic trading, machine learning in finance",
+          "lab_work": "Practical sessions to use the proprietary software in live international derivatives. Introduction to other derivative products, refining trading strategies created in previous courses, practicing the strategies on the proprietary software, application of the quantitative and statistical methods, introduction to algorithmic trading on the proprietary software",
+          "prerequisites": "Courses - Finance, Accounting and Valuation + Financial Markets and Portfolio Theory + Derivatives Pricing, Trading and Strategies",
+          "outcomes": [
+            "Explain and apply the time series models learnt for financial data",
+            "Explicate and apply PCA for financial data",
+            "Explain and apply option pricing models to calculate prices of options",
+            "Explicate types of volatility and volatility models",
+            "Apply the basic methods learnt to estimate volatility"
+          ],
+          "books": [
+            "Introduction to Time Series Analysis and Forecasting - Douglas C. Montgomery, Cheryl L. Jennings",
+            "Fundamentals of Futures and Options Markets - John C. Hull"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "devops",
+      "basket_name": "DevOps and Continuous Delivery",
+      "description": "Master modern DevOps practices, CI/CD pipelines, and cloud deployment",
+      "avg_rating": 4.8,
+      "rating_count": 20,
+      "reviews": [
+        {
+          "user": "Varun Khanna",
+          "rating": 5,
+          "comment": "Best DevOps basket! Learned industry-standard tools and practices.",
+          "pros": "Hands-on tools, Industry-relevant",
+          "cons": "None",
+          "date": "2024-02-18"
+        },
+        {
+          "user": "Neha Malhotra",
+          "rating": 5,
+          "comment": "Got a DevOps role after completing this basket!",
+          "pros": "Practical skills, Great instructor",
+          "cons": "Fast paced",
+          "date": "2024-03-25"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "devops1",
+          "course_no": "UCS537",
+          "name": "Source Code Management",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Teach techniques to combine software development and IT operations using DevOps for faster development with higher quality.",
+          "objectives": [
+            "Teach techniques to combine software development and IT operations using DevOps. It helps to understand faster software development practices with higher quality."
+          ],
+          "topics": [
+            "Traditional Software Development: The Advent of Software Engineering, Waterfall method, Developers vs IT Operations conflict",
+            "Rise of Agile methodologies: Agile Vs Waterfall Method, Iterative Agile Software Development, Individual and team interactions over processes and tools, working software over comprehensive documentation, Customer collaboration over contract negotiation, responding to change over following a plan",
+            "Definition and Purpose of DevOps: Introduction to DevOps, DevOps and Agile, Minimum Viable Product, Application Deployment, Continuous Integration, Continuous Delivery CAMS (Culture, Automation, Measurement and Sharing): CAMS – Culture, Automation, Measurement, Sharing, Test-Driven Development, Configuration Management, Infrastructure Automation, Root Cause Analysis, Blamelessness, Organizational Learning",
+            "Cloud Sustainability: Choosing eco-friendly cloud services (e.g., AWS, Azure, or GCP with carbon-neutral data centers) aligns with DevOps goals and sustainability",
+            "Typical Toolkit for DevOps: Introduction to continuous integration and deployment, Version control system",
+            "Source Code Management History and Overview: Examples - SVN, Mercury and Git, History - Linux and Git by Linus Torvalds",
+            "Version Control System: Version control system vs Distributed version control system: Local repository, Advantages of distributed version control system, The Multiple Repositories Models, completely resetting local environment, Revert - cancelling out changes"
+          ],
+          "self_learning": "Advanced Git workflows, GitOps, DevOps best practices",
+          "lab_work": "Basic structure and Implementation of various distributed version control systems for source code management",
+          "outcomes": [
+            "Identify the need for migrating from traditional software development to Agile model and then to DevOps",
+            "Define and understand the basic principles and need of DevOps and Continuous Delivery",
+            "Understand the history and overview of Source Code Management, along with real-time examples",
+            "Differentiate between centralized and distributed version control systems and basic operations in version control systems and Demonstrate the use of various version control systems"
+          ],
+          "books": [
+            "The DevOps Handbook - Book by Gene Kim, Jez Humble, Patrick Debois, and Willis Willis",
+            "Pro Git – Book by Scott Chacon and Ben Straub (available at https://git-scm.com/book/)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "devops2",
+          "course_no": "UCS659",
+          "name": "Build and Release Management",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understand the process of build and release management with best practices.",
+          "objectives": ["Help participants understand the process of build and release management"],
+          "topics": [
+            "Introduction to Build and Release Management: Introduction to build, understanding different phases of build and release management, Measuring and minimizing carbon footprints of software builds, introduction to release management, best practices for build and release management, Intelligent scheduling for release deployments to reduce energy consumption, concept of build abstraction and dependency abstraction",
+            "Dependency Management: Introduction to dependency management, Best practices for versioning to reduce duplication and waste, how to use source code repositories, managing transitive dependencies, dependency scope and discussion of various tools like Ant, Maven and Gradle, Tools for measuring energy usage in software delivery pipelines",
+            "Document and Reporting: Introduction to build document and reporting, incorporating sustainability principles in project documentation, different types of documentation, understanding site life cycle, advance site configurations and reports, generation of unit test reports, generation of code coverage reports, code coverage tools, code coverage pros and cons",
+            "Release Cycle: To understand project release life cycle, different stages of release lifecycle, source code repositories, using renewable-energy-based data centers for redundancy, how to install and configure source code repositories and deploying build to production goals- prepare, perform, clean and rollback"
+          ],
+          "self_learning": "Advanced Maven configurations, CI/CD pipelines, artifact management",
+          "lab_work": "Setting up Maven environment and understanding POM hierarchy, creation of a project using Maven and its configurations",
+          "outcomes": [
+            "Explain the basics of build and release management by learning build abstraction and declarative dependency management",
+            "Describe dependency management and the associated concepts like repositories, dependency identification and scope, transitive dependencies, and the examples for build tools",
+            "Discuss the process of documentation and reporting, using site life cycle, site configuration and generation of unit testing and code coverage reports",
+            "Define release cycle and the phases of release, preparing, cleaning and performing goals"
+          ],
+          "books": [],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "devops3",
+          "course_no": "UCS660",
+          "name": "Continuous Integration and Continuous Deployment",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Teach techniques to automate the process of integration and deployment of software products.",
+          "objectives": [
+            "Teach techniques to automate the process of integration and deployment software product. It covers prerequisites, anatomy and framework/tools used for the automated process of continuous integration and continuous deployment."
+          ],
+          "topics": [
+            "DevOps Automation: Phases in software development-delivery pipeline, components of automated software delivery, RAD model and model driven architecture",
+            "Automation Benefits: advantages of automation, Time and efforts saving scenarios, error preventing scenarios, energy efficiency and resource optimization: scenarios/case study",
+            "Continuous Integration and Continuous Deployment Introduction: Overview and practices of continuous integration, working mechanism and benefits of continuous integration; continuous delivery's introduction and pipeline. Prerequisites and benefits in efficient delivery cycles, reducing energy consumption, introduction and business drivers of continuous deployment, benefits of continuous deployment",
+            "Stages and Anatomy of CI CD: Core continuous integration process and advanced continuous integration process, release process, continuous delivery engineering practices, continuous testing & promotion of builds, continuous monitoring of delivery pipeline for optimized resources usage, understanding continuous feedback process",
+            "Testing, Debugging and Refactoring: Understanding test-driven development (TDD), categories of TDD, Junit framework, need for code refactoring, its process and strategies in reducing defects and rework",
+            "Understanding Framework and Tools: Common frameworks and code architectures, third party code, IDEs (Eclipse, Netbeans and IntelliJ), common mistakes and avoiding them, issues with making code IDE dependent"
+          ],
+          "self_learning": "Advanced Jenkins pipelines, GitLab CI/CD, GitHub Actions, testing automation",
+          "lab_work": "Setting up Jenkins, Jenkins job, parameters, build, post-build actions and pipeline; Jenkins plugins, using Jenkins as a continuous integration server; Configuring Jenkins with git plugin; Jenkins pipeline to poll the feature branch",
+          "outcomes": [
+            "Understand the phases of software development-delivery pipeline and automation benefits",
+            "Identify and apply continuous integration and deployment prerequisites, process and benefits",
+            "Understand and implement the continuous delivery engineering practices and release process",
+            "Identify & use the test-driven deployment and various tools/frameworks used for continuous integration and delivery in DevOps"
+          ],
+          "books": [
+            "Gene Kim, Jez Humble, Patrick Debois, John Willis, The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations, IT revolution Press (2016) 1st ed.",
+            "Sander Rossel, Continuous Integration, Delivery, and Deployment: Reliable and Faster Software Releases with Automating Builds, Tests, and Deployment, Packt Publishing (2017) 1st ed."
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "devops4",
+          "course_no": "UCS758",
+          "name": "System Provisioning and Configuration Management",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding containerization, orchestration, and system provisioning with configuration management.",
+          "objectives": [
+            "Understanding containers, orchestration, provisioning, and configuration management in DevOps"
+          ],
+          "topics": [
+            "Understanding Containers: Transporting goods analogy and its problems, Containerization platform, images and runtime, comparison with virtual machine, chroot system call, FreeBSD Jails, LinuX containers (LXC), Docker",
+            "Introduction to Containerization: Docker architecture, different environments (Dev, QA and Prod), overcoming issued with different environments, virtual machine for dev/deployments, containers for dev/deployments, advantages and drawbacks of containerization",
+            "Orchestration Tools: Orchestration: its definition and need, Docker swarm and Kubernetes, AWS (ECS and EKS), Kubernetes on cloud, monitoring containers and its process",
+            "Introduction to Provisioning: Basic and software definition, provisioning concepts, reason for exclusive provisioning, configuration management definition and tools, difference between provisioning and configuration management, provisioning tools, test machines for provisioning, deployment and its relationship with provisioning",
+            "On Premise Provisioning: Understanding and Defining On Premise, On Premise provisioning infrastructure, Templating, server templating and its challenges",
+            "Provisioning on Cloud: defining cloud provisioning, types of cloud provisioning, life-cycle of provisioning on cloud, On Premise cloud mitigation strategies, network security enablement from On Premises to cloud, micro-services management in cloud, Environmental impact of cloud technologies, Benefits of Sustainable System Provisioning",
+            "Provisioning and Configuration Management: State of tools in provisioning and configuration, definition and need for configuration management, its benefits and drawbacks in DevOps, need for monitoring in DevOps, reasons for using provisioning and configuration tools, automation, preventing errors and tracking changes, examples of tools and their capabilities"
+          ],
+          "self_learning": "Advanced Docker and Kubernetes, Terraform, Ansible, infrastructure as code",
+          "lab_work": "System Provisioning: Automation of infrastructure, AWS configuration for Terraform, create IAM User, security group, spinning up with EC2 instance, variables, resources, modules, state management, VPC, IAM policy, S3 bucket and its variables. Containers Lab: Playing with Vagrant and understanding its file, Docker machine, Dockerfile, Docker extras, DTR, Docker compose and swarm, Kubernetes -Minikube, deploying Pods and services on Minikube",
+          "outcomes": [
+            "Understand the concept of Virtualization and Containerization",
+            "Familiarize with Orchestration and System provisioning",
+            "Analyze and demonstrate the infrastructure automation and state management in the cloud environment",
+            "Understand and demonstrate the need for configuration management"
+          ],
+          "books": [
+            "Course material by Xebia, Xebia Academy: Log in to the site (learnhub.xebia.com)",
+            "Gerardus Blokdyk, Server Provisioning and Configuration Management Complete Self Assessment Guide, 5STARCooks, 2018",
+            "Erika Heidi, An Introduction to Configuration Management, Tutorials, 2019"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "fullstack",
+      "basket_name": "Full Stack",
+      "description": "Complete full-stack development with UI/UX, backend, testing, and cloud",
+      "avg_rating": 4.9,
+      "rating_count": 22,
+      "reviews": [
+        {
+          "user": "Karan Joshi",
+          "rating": 5,
+          "comment": "Complete full-stack training! Built production-ready apps.",
+          "pros": "Comprehensive, Modern stack",
+          "cons": "Very intense",
+          "date": "2024-01-30"
+        },
+        {
+          "user": "Divya Menon",
+          "rating": 5,
+          "comment": "Best basket for aspiring full-stack developers!",
+          "pros": "End-to-end coverage, Practical projects",
+          "cons": "None",
+          "date": "2024-03-18"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "fullstack1",
+          "course_no": "UCS542",
+          "name": "UI & UX SPECIALIST",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Impart concepts related to web technology essential for development of web applications including HTML, CSS, JavaScript, React, and Node.js.",
+          "objectives": [
+            "Impart concepts related with web technology which are essential for the development of web applications. The key technology components include web markup languages, client and server side programming."
+          ],
+          "topics": [
+            "HTML & CSS: Introduction to HTML, HTML Page Structure, Create HTML document, various elements in HTML, Attributes in HTML, HTML forms, validations, Creating web pages with HTML5, HTML5 features, form validate/no validate, HTML5 canvas, embedding audio and video, drag and drop, HTML5 Local Storage, web workers and server sent events. CSS - inserting CSS in HTML, CSS3, CSS Selectors, Buttons, float and clear, align, Padding, Links, Lists, Tables",
+            "JavaScript: What is JavaScript, Importance, What can JavaScript Do?, JavaScript with HTML Attributes, with CSS, Operators, Syntax, Data Types, Functions, Setting up Environment, Variables, Control flow, if-else, switch, loops, JavaScript HTML DOM Elements, String Methods, Arrays, Sorting, Joins, Reduce map",
+            "Frontend Architecture: Introduction to Frontend Development, History, MVC, MVP, MVVM & Web Apps, Resource Optimization, Development of AJAX, Introduction to DOM, Basic DOM Manipulation, Reactive Programming, Refreshing ES6 Specifications and Features ECMA Script, ES6 let and const, arrow functions, New Literal Syntax, Classes, Inheritance using extends, Default Parameter Values, Spread Operator (...), Iterators and Generators, Features of React, Practical Application, Why need React, How React Works, Leveraging Virtual DOM, Setting up React",
+            "REST API, JSX: Why JSX, Modular and Scalable Design, Embedding JavaScript Expression in JSX, JSX Attributes, Comments, Styling and Representation as Object, The State of the Component, Changing the State, Props of Component, Using Props, Props Validation in React, Similarities Between State & Props. RESTAPI - Intro to API, History of API Development, Development of AJAX, CRUD; GraphQL; HTTP, HTTP 1.1, HTTP/2, Stream prioritization, Introduction to React Native, Setting up React Native, The Expo Client, Working up on the First Project, Style, Flexbox Layout",
+            "Node.js: Introduction to Node.js, History, Why Node.js, Node.js Architecture, Features, Working of Node.js, Installation & Setting Up Node, setting up React, REPL Environment, REPL Commands, Variable, Components of Node.js, Local Modules, Module Exports: Export Object, Export Class, Loading Module from Separate Folder, Operating System, File Systems"
+          ],
+          "self_learning": "Advanced React patterns, TypeScript with React, Next.js framework",
+          "lab_work": "Development of full web framework considering both client and server side programming, creation of dynamic web pages with HTML, CSS, JavaScript, building web apps with functional frontend and database connectivity",
+          "outcomes": [
+            "Acquire knowledge and skills for creation of full web framework considering both client and server side programming",
+            "Develop a dynamic and interactive WebPages by the use of HTML, XHTML, CSS, Java script and DHTML",
+            "Build web apps with fully functional frontend with database connectivity",
+            "Undertake transfer of multimedia content over the Internet between the multi platforms web applications through communication protocols and build web API"
+          ],
+          "books": [
+            "Web Technology: Theory and Practice - M. Srinivasan, Pearson (2012)",
+            "Web Technology: Theory and Practice - A. Kumar, CRC Press (2018)",
+            "Web programming with HTML, XHTML and CSS, 2e - Jon Duckett, Wiley India",
+            "Web technologies: A Computer Science Perspective - Jeffrey C. Jackson, 1st ed., Pearson (2007)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fullstack2",
+          "course_no": "UCS677",
+          "name": "DATA ENGINEERING",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Learn NoSQL databases, MongoDB, JavaScript, indexing, collections, and database management for availability and performance.",
+          "objectives": ["Basic concepts of database, Mongo DB, SQL, and JavaScript"],
+          "topics": [
+            "Getting started with MongoDB: NoSQL Databases, Features of MongoDB, Installation overview, Documents, Collections, Databases, What is the NoSQL approach? Why Use the NoSQL Approach, Benefits of NoSQL, Types of Databases, Key-Value Stores, Wide-column Stores/Columnar Databases, Document/Document-store/Document-oriented Databases, Graph-based Databases, Starting and stopping MongoDB",
+            "JavaScript in MongoDB: JavaScript in MongoDB, Execution of a JavaScript file in MongoDB, Making the output of find readable in shell, Complementary Terms, Installation, Basic commands on mongo shell, HelloWorld, Create, Update Delete, Read, Update of embedded documents, more update operators, Updating multiple documents",
+            "Collections: List all collections in the database, List all databases, Find(), FindOne(), limit, skip, sort and count the results of the find() method, Query Document – Using AND, OR and IN Conditions, find() method with Projection, $set operator to update specified field(s) in document(s), Insert a document, Create a Collection, Drop Collection, Aggregation",
+            "Indexes: Indexes, Index Creation Basics, Dropping/Deleting an Index, Sparse indexes and Partial indexes, Get Indices of a Collection, Compound, Unique Index, Single field, Delete, List, Mongo as Shards",
+            "Sharding Environment Setup: Managing Database for Availability and Performance, Database Scaling, Database Distribution Models, Database Replication, Types of Database Replication, Master-Slave Replication, Peer-to-Peer Replication, Advantages and Disadvantages of Peer-to-Peer Replication, Introduction to Sharding, Why Sharding, The Lookup Strategy, Basic configuration with three nodes, Mongo as a Replica Set, Mongoose"
+          ],
+          "self_learning": "Advanced MongoDB operations, database optimization, NoSQL design patterns",
+          "lab_work": "Hands-on practice with MongoDB operations, indexing, collections management, sharding, and replication",
+          "outcomes": [
+            "Learn NoSQL, Mongo DB, and JavaScript",
+            "Apply basic concepts of indexing and collections using MongoDB",
+            "Formulate the basic usage of database such as graph-based database, creating and dropping of collections, and indexing and solving real-world problems",
+            "Handle and update multiple documents using Mongo DB",
+            "Manage database for availability and performance, and scaling of database"
+          ],
+          "books": [
+            "The Data Engineering Cook Book - Andreas Kretz, 6th ed. (2019)",
+            "Database Internals: A deep dive into how distributed data systems work - Alex Petrov, O'REILLY Publication (2021)",
+            "MongoDB: The definite guide: Powerful and Scalable Data Storage - S. Bradshaw, Eoin Brazil, and Kristina Chodorow, O'REILLY Publication (2021)",
+            "NoSQL for Mere Mortals - Dan Sullivan, O'REILLY Publication (2021)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fullstack3",
+          "course_no": "UCS662",
+          "name": "TEST AUTOMATION",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Understanding of software testing and how to use various tools like Selenium and TestNG for automation of software testing.",
+          "objectives": [
+            "The course provides understanding of software testing and how to use various tools (like Selenium and TestNG etc.) used for automation of software testing"
+          ],
+          "topics": [
+            "Introduction to Software Testing: Seven principles of Software Testing, SDLC vs STLC, Testing Life Cycle, Usability Testing, why do we need Usability Testing, how to do Usability testing, Advantages & Disadvantages, Functional Testing, End to End Testing, Methods, Advantages & Disadvantages, Compatibility Testing, Types GUI testing, Techniques API testing, Advantages",
+            "Test Automation - Selenium: Selenium components, Selenium Architecture, TestNG: Installing TestNG in Eclipse, TestNG annotations – Understanding usage, setting priority of execution for test cases, Hard Assertion, Soft Assertion, TestNG Reports, ANT- Downloading & Configuring, XSLT report generation using TestNG and Ant",
+            "Introduction to Selenium 3.x: Describe Selenium 3.x advantages and implementation, Define drivers for Firefox, IE, chrome, iPhone, Android etc. Analyze first Selenium Code, differentiate between Close and Quit, Describe Firepath and firebug Add-ons installation in Mozilla, inspect elements in Mozilla, Chrome and IE, Identifying Web Elements using id, name, class, Generate own CSS Selectors. Differentiate between performance of CSS Selectors as compared to Xpaths, define class attribute, Handle Dynamic objects/ids on the page, Analyze whether object is present on page or not",
+            "Manual Testing: Manual Testing, Manual Testing – How to Approach? Manual Testing – Myth and fallacy, Defect Life Cycle, Qualities of a good Manual Tester, Manual Testing Vs Automation Testing, Types, System Testing, Acceptance Testing, Unit Testing, Techniques, Integration Testing, Smoke-Sanity Testing",
+            "Introduction to Test Design and Sustainable Software Testing Practices: Test Scenario, Test Case Design, Test Basis Traceability Matrix, Energy-efficient coding and testing strategies, Integrating sustainable practices in STLC, Balancing scalability and energy consumption during automated testing, Case studies of sustainable software projects"
+          ],
+          "self_learning": "Advanced Selenium frameworks, Cypress, Playwright, API testing tools",
+          "lab_work": "Hands-on implementation of automated tests using Selenium, TestNG, designing test cases, creating test frameworks",
+          "outcomes": [
+            "Understand the concepts related to software testing and test automation",
+            "Take into account the different considerations when planning automated tests vs. manual tests",
+            "Architect the test project and fit it to the architecture of the tested application",
+            "Design and implement highly reliable automated tests",
+            "Understand how different types of automated tests will fit into your testing strategy, including unit testing, load and performance testing, visual testing, and more"
+          ],
+          "books": [
+            "Complete Guide to Test Automation: Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects - Axelrod Arnon, Apress (2018)",
+            "Learn Selenium: Build data-driven test frameworks for mobile and web applications with Selenium Web Driver 3 - Gundecha U. and Cocchiaro C., Packt (2019)",
+            "Selenium Fundamentals - Diego Molina, Packt (2018)",
+            "Foundations of Software Testing - Aditya P. Mathur, Pearson Education (2008)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "fullstack4",
+          "course_no": "UCS745",
+          "name": "CLOUD & DEVOPS",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Teach techniques to automate the process of integration and deployment of software products using DevOps, containerization, and cloud technologies.",
+          "objectives": [
+            "The objective of the course is to teach techniques to automate the process of integration and deployment software product"
+          ],
+          "topics": [
+            "Introduction to DevOps: Definition of DevOps, Challenges of traditional IT systems & processes, History and emergence of DevOps, DevOps definition and principles governing DevOps, DevOps and Agile, The need for building a business use case for DevOps, Purpose of DevOps, Application Deployment, Automated Application Deployment, Application Release Automation (ARA), Components of Application Release Automation (ARA), Continuous Integration, Best Practices of CI, Benefits of CI, Continuous Delivery",
+            "Typical Toolkit for DevOps: DevOps, An Overview, Achieving DevOps, Continuous Practices, Continuous Integration (CI), How does CI Work? Continuous Integration Practices, Benefits of Continuous Integration A Quick Recap of Continuous Delivery, Continuous Delivery Process, Benefits of Continuous Delivery, Continuous Deployment",
+            "Source Code Management: History of Version Control Systems (VCS), Basic operations in a VCS, Examples of version control systems, Subversion (SVN), Features and Limitations, Mercurial, Git, Overview, History - Linux and Git by Linus Torvalds, Advantages of Git, Explain how local version control works, Centralized Version Control Systems (CVCS), Distributed Version Control Systems (DVCS), advantages of DVCS, Private Workspace, Easier merging, Easy to scale horizontally, List the disadvantages of DVCS, Explain how CVCS and DVCS compare with each other, Describe the working of the multiple repositories model",
+            "Application Containerization Understanding Containers: Transporting Goods Analogy, Problems in Shipping Industry before Containers, Shipping Industry Challenges, Container: Virtualization Introduction, Hypervisor, Scope of Virtualizations, Containers vs Virtual Machines, Understanding Containers, Containerizations Platform, Runtime and Images, Container Platform, Container Runtime, The Chroot System, FreeBSD Jails, LinuX Containers (LXC), Docker",
+            "Introduction to Containerization: Docker architecture, Docker Daemon (Container Platform), Docker Rest API, CLI Different environments: (Dev, QA and Prod), Overcoming issues with different environments, virtual machine for dev/deployments, containers for dev/deployments, advantages and drawbacks of containerization",
+            "Orchestration Tools: Orchestration: its definition and need, Docker swarm and Kubernetes, AWS (ECS and EKS), Kubernetes on cloud, monitoring containers and its process",
+            "Introduction to Provisioning: Basic and software definition, provisioning concepts, reason for exclusive provisioning, configuration management definition and tools, difference between provisioning and configuration management, provisioning tools, test machines for provisioning, deployment and its relationship with provisioning",
+            "On Premise Provisioning: Understanding and Defining On Premise, On Premise provisioning infrastructure, Templating, server templating and its challenges",
+            "Provisioning on Cloud: defining cloud provisioning, types of cloud provisioning, life-cycle of provisioning on cloud, On Premise cloud mitigation strategies, network security enablement from On Premises to cloud, micro-services management in cloud, Environmental impact of cloud technologies, Benefits of Sustainable System Provisioning",
+            "Provisioning and Configuration Management: State of tools in provisioning and configuration, definition and need for configuration management, its benefits and drawbacks in DevOps, need for monitoring in DevOps, reasons for using provisioning and configuration tools, automation, preventing errors and tracking changes, examples of tools and their capabilities"
+          ],
+          "self_learning": "Advanced Docker and Kubernetes, Terraform, Ansible, infrastructure as code",
+          "lab_work": "System Provisioning: Automation of infrastructure, AWS configuration for Terraform, create IAM User, security group, spinning up with EC2 instance, variables, resources, modules, state management, VPC, IAM policy, S3 bucket and its variables. Containers Lab: Playing with Vagrant and understanding its file, Docker machine, Dockerfile, Docker extras, DTR, Docker compose and swarm, Kubernetes -Minikube, deploying Pods and services on Minikube",
+          "outcomes": [
+            "Understand the concept of Virtualization and Containerization",
+            "Familiarize with Orchestration and System provisioning",
+            "Analyze and demonstrate the infrastructure automation and state management in the cloud environment",
+            "Understand and demonstrate the need for configuration management"
+          ],
+          "books": [
+            "Cloud Native DevOps with Kubernetes: building, deploying, and scaling modern applications in the cloud - Arundel, J., & Domingus, J., O'Reilly Media (2019)",
+            "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations - Kim, G., Humble, J., Debois, P., & Willis, J., IT revolution Press 1st ed (2016)",
+            "DevOps: A software architect's perspective - Bass, L., Weber, I., & Zhu, L., Addison-Wesley Professional (2015)",
+            "Engineering Software as a Service: An Agile Approach Using Cloud Computing - Fox, A., Patterson, D. and Joseph, S., 1st Edition (2013)",
+            "Continuous Integration, Delivery, and Deployment: Reliable and Faster Software Releases with Automating Builds, Tests, and Deployment - Rossel, S., Packt Publishing, 1st ed (2017)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "math",
+      "basket_name": "Mathematics and Computing",
+      "description": "Advanced mathematical methods and computational techniques",
+      "avg_rating": 4.3,
+      "rating_count": 8,
+      "reviews": [
+        {
+          "user": "Siddharth Verma",
+          "rating": 4,
+          "comment": "Strong mathematical foundation with practical computing applications.",
+          "pros": "Rigorous theory, MATLAB skills",
+          "cons": "Very challenging",
+          "date": "2024-02-05"
+        },
+        {
+          "user": "Ananya Reddy",
+          "rating": 5,
+          "comment": "Perfect for those who love math and computing!",
+          "pros": "Deep concepts, Good applications",
+          "cons": "Heavy workload",
+          "date": "2024-03-12"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "mc1",
+          "course_no": "UMC512",
+          "name": "Mathematical Modeling and Simulation",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students basic knowledge of mathematical modeling and introduces computer simulations and techniques.",
+          "objectives": [
+            "To provide students a basic knowledge of mathematical modeling",
+            "To enable students to construct different mathematical models using various mathematical techniques",
+            "To introduce computer simulations and techniques",
+            "To provide the foundations for the student to understand computer simulation needs"
+          ],
+          "topics": [
+            "Mathematical Modeling: Modeling and its principles, some methods of mathematical modeling: problem definition, dimensional homogeneity and consistency, abstraction and scaling, conservation and balance principles, system characterization, constructing linear models, discrete versus continuous modelling, determinstic versus stochastic",
+            "Approximating and Validating Models: Review of Taylor's formula and various trigonometric expansions, validating the model, error analysis, fitting curves to the data",
+            "Basic Simulation Approaches: Methods for simulation and data analysis using MATLAB, statistics for simulations and analysis, random variates generation, sensitivity analysis",
+            "Model and its Different Types: Linear and nonlinear population models, traffic flow models, transport phenomena, statistical models, Poisson process, stochastic models, stock market, option pricing, Black-Scholes model, modeling engineering systems"
+          ],
+          "self_learning": "Advanced modeling techniques, real-world case studies, complex system simulations",
+          "lab_work": "Implementation of numerical techniques using MATLAB based on course contents. Projects: The projects will be assigned according the syllabus covered",
+          "software_support": "MATLAB",
+          "outcomes": [
+            "Formulate various mathematical models based on modeling tools and techniques",
+            "Derive and use various simulation techniques",
+            "Simulate examples based to realistic models using appropriate modeling tools",
+            "Implement statistical simulation for various models"
+          ],
+          "books": [
+            "Clive L. Dym, Principles of Mathematical Modelling, Elsevier Press, Second Edition, 2004",
+            "Edward A. Bender, An Introduction to Mathematical Modelling, Dover, 2000",
+            "D Kincaid and W. Cheney, Numerical Analysis: Mathematics of Scientific Computing, Third Edition, American Mathematical Society, 2009",
+            "J. Nathan Kutz, Data-Driven Modeling& Scientific Computation: Methods for Complex Systems & Big Data, Oxford University Press, 2013"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "mc2",
+          "course_no": "UMC622",
+          "name": "Matrix Computation",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides platform for students to use linear algebra in real life with focus on computational methods to compute eigenvalues and singular values.",
+          "objectives": [
+            "To provide a platform for the students to use linear algebra in real life",
+            "To focus on computational methods for eigenvalues and singular values computation",
+            "To provide Matlab implementation of methods for better understanding"
+          ],
+          "topics": [
+            "Matrix Analysis: Review of matrices and vector spaces: rank of a matrix, linear dependence and independence, bases and dimensions, linear transformations, range and null space of a matrix, rank-nullity theorem. Inner product space: Gram Schmidt orthogonalization, dual space and invariant space",
+            "Matrix transformations: similarity transformation, diagonalization of matrices, Householder transformation, QR factorization",
+            "Conditioning of matrices: vector and matrix norms, convergent matrices, condition number of a matrix",
+            "Techniques for finding eigen values: Eigen value problems, spectral stability of matrices, reduction to Hessenberg or tridiagonal form, iterative techniques using Krylov subspace concepts for eigen value problems",
+            "Spectral theory of matrices: spectral decompositions, Gersgorin bounds on eigenvalues, spectrum of perturbed matrices, Schur decomposition theorem",
+            "Singular value decomposition: SVD and their applications",
+            "Real life applications of eigen values and singular values: Discussion of real life problems based on eigen values and SVDs and their application in image processing and big data analysis"
+          ],
+          "self_learning": "Advanced matrix algorithms, numerical stability analysis, applications in machine learning",
+          "lab_work": "Matlab experiments will be designed to implement algorithms from the syllabus",
+          "outcomes": [
+            "Explain and apply fundamental linear algebra concepts",
+            "Evaluate norms of vectors and matrices",
+            "Solve eigen value problems using theoretical and computational methods",
+            "Apply singular value decomposition",
+            "Implement linear algebra algorithms using Matlab"
+          ],
+          "books": [
+            "Kenneth Hoffman and Ray Kunze, Linear Algebra, Pearson India, second edition, 2015",
+            "Derek J. S. Robinson, A course in linear algebra with application, World Scientific Press, second edition, 2006",
+            "Gene H. Golub and Charles F. Van Loan, Matrix Computations, Johns Hopkins University Press, fourth edition, 2012",
+            "Roger A. Horn and Charles R. Johnson, Matrix Analysis, second Edition, Cambridge University Press, 2012",
+            "L. N. Trefethen and David Bau, Computational Linear Algebra, SIAM, 1997",
+            "Gilbert Strang, Linear algebra and its Applications, fourth edition, CENGAGE, 2014"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "mc3",
+          "course_no": "UMC632",
+          "name": "Financial Mathematics",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Introductory course in finance to equip with framework and basic techniques necessary for financial engineering with focus on valuation of financial assets and derivative products.",
+          "objectives": [
+            "To equip with a framework and basic techniques necessary for financial engineering",
+            "To focus on valuation of financial assets and more specifically derivative products",
+            "To introduce the concept of risk and relation between risk and return",
+            "To integrate knowledge of risk and valuation in optimal decision-making"
+          ],
+          "topics": [
+            "Basics of Financial Mathematics: Financial markets, terminologies, basic definitions and assumptions, Interest rate, present value, future value, NPV, annuity and perpetuity, Market structure, no arbitrage principle, derivative products, forwards, futures – their valuation, dividend and non divided cases, options, swap, valuation concept, purpose and working of these products",
+            "Theory of Option Pricing: Options-calls and puts, pay-off, profit diagrams, hedging and speculation properties of options, valuation of options using pricing and replication strategies, mathematical properties of their value functions, put-call parity, Risk neutral probability measure (RNPM) (discrete case), existence of RNPM, Binomial lattice model, Binomial formula for pricing European style and American style options, dividend and non-divided cases, CRR model, Black-Scholes formula derivation, Examples. Greeks and their role in hedging, delta-neutral portfolio, delta-gamma neutral portfolio",
+            "Portfolio Optimization: Introduction, risk, return, two-assets portfolio, Markowitz curve, efficient frontier, Multi-assets all risky portfolio, mean-variance Markowitz model, two fund theorem"
+          ],
+          "self_learning": "Advanced option pricing models, portfolio theory extensions, risk management techniques",
+          "lab_work": "Extraction of data from various online resources like NSE, moneyconrol.com etc. Implementation and validation of various models studied in the course for option and portfolio valuation using Matlab/R/Excel",
+          "outcomes": [
+            "Understand basic quantities that are reported in everyday life such as interest rates, periodic payments of money, dividends, shares, bonds, forwards, futures etc.",
+            "Evaluate call and put option prices using binomial and CRR models",
+            "Construct a portfolio which is optimal in a given market scenario"
+          ],
+          "books": [
+            "D.G. Luenberger, Investment Science, Oxford University Press, 1999 (new edn. 2013)",
+            "S. Chandra, S. Dharmaraja, A. Mehra, R. Khemchandani, Financial Mathematics: An Introduction, Narosa, 2012",
+            "M. Capinsky and T. Zastawniak, Mathematics for Finance: An Introduction to Financial Engineering, Springer, 2004 (new edn, 2011)",
+            "J C Hull, Options, Futures and other Derivatives, Prentice Hall, 8th edn, 2011",
+            "J H Cochrane, Asset Pricing, Princeton University, 2000 (new edn 2005)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "mc4",
+          "course_no": "UMC742",
+          "name": "Computational Number Theory",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides introduction to elementary number theory with focus on computational aspects and applications in cryptography for secure encryption methods.",
+          "objectives": [
+            "To provide an introduction to elementary number theory, including theory of congruences, prime modulo, quadratic residues",
+            "To focus on computational aspects and finding applications in cryptography",
+            "To deal with secure encryption methods for communication"
+          ],
+          "topics": [
+            "Divisibility and Primes: Twin primes, Goldbach conjecture, Fermat and Mersenne primes, Primality testing and factorization",
+            "Congruences: Linear congruences, Chinese Remainder Theorem, congruences with a prime-power modulus, Fermat's little theorem, Wilson's Theorem, Euler function, Quadratic Residues, Legendre Symbol, Euler's criterion",
+            "Cryptography Basics: Symmetric and asymmetric key cryptography, Pseudo-primes, Pseudo-primality Testing, Randomized Primality test & Deterministic Polynomial Time Algorithm, Pollard-Rho Method",
+            "Public key Cryptosystems: RSA, Diffie Hellmann key exchange, different attacks and Remedies, Digital Signature, Elliptic curve cryptography and its application in cryptography"
+          ],
+          "self_learning": "Advanced cryptographic protocols, post-quantum cryptography, blockchain applications",
+          "lab_work": "Implementation of various traditional ciphers, symmetric ciphers and asymmetric ciphers using C programming language",
+          "outcomes": [
+            "Find the greatest common factor using the Euclidean Algorithm and investigate different factorization methods and primes",
+            "Solve linear and simultaneous congruences",
+            "Apply Wilson's and Fermat's Little Theorem as the basis for primality tests and factoring algorithms",
+            "Apply and analyse elementary number theory concepts to symmetric and asymmetric key cryptography for encrypting and decrypting a message"
+          ],
+          "books": [
+            "Neal Koblitz, A course in Number Theory and Cryptography, Springer, 2006",
+            "Niven, H.S. Zukermann, H.L. Montgomery, An introduction to theory of numbers, Willey, 2015",
+            "D. Burton, Elementary Number Theory, McGraw-Hill, 2012",
+            "Behrouz A. Forouzan, D. Mukhopadhyay, Cryptography and Network Security, McGraw Hill, 2015",
+            "J. Pipher, J. Hoffstein and J.H. Silverman, An introduction to Mathematical Cryptography, Springer-verlag 2014"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "ds",
+      "basket_name": "Data Science",
+      "description": "Comprehensive data science training with ML, CV, NLP, and deep learning",
+      "avg_rating": 4.8,
+      "rating_count": 25,
+      "reviews": [
+        {
+          "user": "Abhishek Mehta",
+          "rating": 5,
+          "comment": "Outstanding data science basket! Covers everything from basics to advanced DL.",
+          "pros": "Comprehensive, Modern techniques",
+          "cons": "None",
+          "date": "2024-02-22"
+        },
+        {
+          "user": "Sneha Iyer",
+          "rating": 5,
+          "comment": "Best data science courses! Got a DS role after completion.",
+          "pros": "Practical projects, Industry tools",
+          "cons": "Fast paced",
+          "date": "2024-03-28"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "ds1",
+          "course_no": "UCS548",
+          "name": "Foundations of Data Science",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Elaborates the basics of data science and provides a foundation for understanding the challenges and applications in the field.",
+          "objectives": [
+            "To elaborate the basics of data science and provide a foundation for understanding the challenges and applications"
+          ],
+          "topics": [
+            "Data Science Introduction: Data and types, Big Data and Distributed Databases, Application and purpose of data, Data Science, The data science process",
+            "Introduction to R and RStudio: Installing and configuring RStudio, R Packages, Basic syntax, variables, Operators, Data types, Control Flow, Sequence Generation (range function), String Operations, Functions, Loop Functions and Debugging (lapply, apply, mapply, tapply, split, Diagnosing), Simulation & Profiling (Random Number, Linear Model, Random Sampling), File Handling in R (Reading different files in R), Introduction to Swirl, Regular Expression",
+            "Data Cleaning and Summarization: Matrices, Factors, Data Frames, Vectors, Lists, Data Cleaning and reading data from different data source, Reading Large Tables, Subsetting and Sorting, Summarizing Data, Creating New Variables, Reshaping Data, Managing Data Frames with dplyr - Introduction, Managing Data Frames with dplyr - Basic Tools, Merging Data, Version control and Github",
+            "Data Visualization in R: Setting Your Working Directory (Windows), Principles of Analytic Graphics, Lattice Plotting, Base Plotting System, Plotting using ggplot2/Matplotlib library (Histogram: Display the distribution of school enrollments to highlight gaps in access to quality education, BoxPlot: Compare urban sustainability metrics across cities to identify disparities and Useful for global comparisons of education outcomes, Scatter Plot, Bar Graphs: Illustrate regional crime rates to inform peace and justice strategies, Line Graph, etc)",
+            "Data Science Advance Topics in R: Basics of Correlation, Regression, Hierarchical Clustering, K-Means Clustering, Working with Color in R Plots, Storage and Retrieval of Unstructured Data, HDFS File System, Map-Reduce Concept, Dimension Reduction: (Principle Component Analysis, Singular Value Decomposition), Feature Selection, Model Evaluation Parameters"
+          ],
+          "self_learning": "Advanced data visualization techniques, big data processing frameworks, real-world data science projects",
+          "lab_work": "Implementation of various data analysis techniques",
+          "outcomes": [
+            "To manage, manipulate, clean, and analyze different types of data",
+            "To understand data correlation, reduction, and summarization",
+            "To develop dashboards for real-time data sets",
+            "To visualized the dataset using different visualization techniques"
+          ],
+          "books": [
+            "Jiawei Han, Micheline Kamber, Jian Pei, Data Mining Concepts and Techniques, (3rd Ed.), Morgan Kaufmann",
+            "Roger D. Peng, R Programming for Data Science",
+            "Trevor Hastie Robert, Tibshirani Jerome Friedman, The Elements of Statistical Learning, Springer"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ds2",
+          "course_no": "UCS654",
+          "name": "Predictive Analytics Using Statistics",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides overview of statistical methods relevant in business analytics including probability, hypothesis testing, regression, and neural networks.",
+          "objectives": [
+            "Advanced analytics requires the use of unstructured data. Uncertainty is a primary characteristic of unstructured data",
+            "Statistical methods that correlate information, finding patterns, predictive modeling are essential in dealing comprehensively with data",
+            "This course will provide an overview of statistical methods relevant in the world of business analytics through case studies and statistical software"
+          ],
+          "topics": [
+            "Unit-1: Probability, conditional probability, random variable, PDF, PMF, joint distribution, statistical independence, variance, co-variance, correlation, different distribution functions, Bayes theorem, central limit theorem",
+            "Unit-2: Sampling-Distributions, Parameter-Estimations, Hypothesis-Testing, Two-population Tests, Regression and Correlation, UniVariate-Analysis, Multi-Variate, ANOVA. Analytics of real-world data related to water monitoring",
+            "Unit-3: Mathematical modeling of regression (linear, non-linear, multiple), understanding error in model training (loss, bias, variance, overfitting, underfitting), maximum likelihood estimation to solve regression, transformation of classification to regression",
+            "Unit-4: Basics of Neural Networks, different loss functions, validation and regularization, multilayered, parameter optimization methods. Analyzing past academic records and behavior patterns to identify students at risk of underperforming",
+            "Unit-5: Deep networks, Auto encoders-decoders, generative networks, transformers. Measuring noise in climate data using visual information"
+          ],
+          "self_learning": "Advanced statistical modeling, time series analysis, Bayesian methods",
+          "lab_work": "Implementation using R and statistical software packages",
+          "outcomes": [
+            "Demonstrate the ability to use basic probability concepts with descriptive statistics",
+            "Visualize the patterns in the data",
+            "Demonstrate the use of statistical methods to estimate characteristics of the data",
+            "Explain and demonstrate the use of predictive analytics in the field of data science"
+          ],
+          "books": [
+            "Peter Dalgaard, Introductory Statistics with R, Springer, Second Edition, ISBN: 978-0-387-79053-4",
+            "Brett Lantz, Machine Learning with R (2nd Edition), www.PacktPub.com"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ds3",
+          "course_no": "UCS772",
+          "name": "Data Science: Computer Vision & NLP",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides exposure to basic workflow and applications of data science techniques in computer vision and natural language processing.",
+          "objectives": [
+            "There have been many applications of data science to solve real world problems",
+            "The objective of the course is to provide exposure to basic workflow and applications of data science techniques in targeted topics"
+          ],
+          "topics": [
+            "Fundamentals of Natural Language Processing: What is NLP, Difficulties in NLP, Basics of text processing and spelling correction, Introduction to language modeling, Limitations of traditional language models",
+            "NLP Techniques and Applications: Sentiment analysis using logistic regression, naïve Bayes and neural networks, text prediction using GRUs, Long Short-Term Memory units (LSTM), Large Language Model (LLM), Named Entity Recognition systems to extract important information from text",
+            "Computer Vision and its applications: Introduction and goal of computer vision, Basics of image processing and computer vision, CNN, Visual Transformers, Application of computer vision in recognition"
+          ],
+          "self_learning": "Advanced NLP models, transformer architectures, computer vision applications in healthcare",
+          "lab_work": "To implement models and use cases using python and google open source library Tensorflow etc. Innovative diagnostic tools and mental health chatbots leverage data-driven technologies to provide accessible, personalized, and scalable mental health support",
+          "outcomes": [
+            "Apply the basic principles, models, and algorithms of NLP and CV for problem solving",
+            "Apply NLP and CV techniques in the real time problems",
+            "Comprehend the advancements in machine learning techniques in NLP, CV",
+            "Acquire knowledge to apply open source libraries of NLP and CV for solving real life problems"
+          ],
+          "books": [
+            "Speech and Language Processing, by M. Jurafsky, & J. Martin, New York: Prentice-Hall (2000)",
+            "Deep Learning, by Ian Goodfellow, Yoshua Bengio and Aaron Courville, MIT Press, 2016",
+            "The Internet of Things by Samuel Greengard, MIT Press Essential Knowledge series, (2015)",
+            "Data Science Using Python and R, by Chantal D. Larose, Daniel T. Larose, Wiley (2019)",
+            "Computer Vision: Algorithms and Applications, by Richard Szeliski, Springer",
+            "Internet of Things Technologies and Applications for a New Age of Intelligence, by V Tsiatsis, S Karnouskos, J Holler, D Boyle, C Mulligan, (2018)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "ds4",
+          "course_no": "UCS761",
+          "name": "Deep Learning",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Enables students with basic deep learning architectures to build intelligent machines for making decisions on behalf of humans.",
+          "objectives": [
+            "The main objective of this course is to enabling the student with basic deep learning architectures to build an intellectual machine for making decisions behalf of humans"
+          ],
+          "topics": [
+            "Artificial Neural Networks: Basic Concepts of Artificial Neurons, Single and Multi-Layer Perceptron, Learning Algorithm, Gradient Decent & Momentum Based Optimization, Activation Functions, Backpropagation",
+            "Convolutional Neural Networks: Basic Concepts of Convolutional Neural Networks. Convolution and Pooling Operation, Convnet Architectures, Regularization, Dropout, Batch-Norm etc. Convnet Architectures - Alexnet, Zfnet, VGG, Googlenet, Resnet, Mobilenet etc. Applications of CNN Healthcare Analytic, Precision Agriculture & Computer vision",
+            "Recurrent Neural Networks: Recurrent Architecture, BPTT, Vanishing and Exploding Gradients, GRU, LSTM, Attention Mechanism and Transformers. Applications of recurrent neural networks in single and multivariable time series forecasting such as weather forecasting",
+            "Autoencoders: Autoencoder and its Relation to PCA, Stack Autoencoders, Denoising Autoencoders Variational Autoencoders, Sparse Autoencoders and GANs. Applications of GANs in synthetic data generation for precise disease diagnosis"
+          ],
+          "self_learning": "Advanced deep learning architectures, reinforcement learning, transfer learning",
+          "lab_work": "To implement deep learning models using python and google open source library such as Tensorflow, Keras etc",
+          "outcomes": [
+            "Comprehend the advancements in learning techniques",
+            "Compare and explain various deep learning architectures and algorithms",
+            "Demonstrate the applications of deep learning in various fields",
+            "Apply deep learning specific open source libraries for solving real-life problems"
+          ],
+          "books": [
+            "Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, MIT Press, 2016",
+            "Michael Nielsen, Neural Network and Deep Learning, Online Book 2016"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "cai",
+      "basket_name": "Conversational AI",
+      "description": "Master NLP, speech processing, and generative AI technologies",
+      "avg_rating": 4.7,
+      "rating_count": 14,
+      "reviews": [
+        {
+          "user": "Nikhil Sinha",
+          "rating": 5,
+          "comment": "Cutting-edge AI courses! Learned about LLMs and transformers.",
+          "pros": "State-of-the-art topics, Hands-on",
+          "cons": "Requires strong ML background",
+          "date": "2024-01-28"
+        },
+        {
+          "user": "Pooja Kapoor",
+          "rating": 5,
+          "comment": "Amazing basket for AI enthusiasts. Built chatbots and voice assistants!",
+          "pros": "Modern tools, Practical applications",
+          "cons": "Challenging",
+          "date": "2024-03-20"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "convai1",
+          "course_no": "UCS551",
+          "name": "Conversational AI: Accelerated Data Science",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students with fundamental and advanced methods of data science from data collection to analytics and machine learning with RAPIDS on text and graphical problems.",
+          "objectives": [
+            "Provide students with fundamental and advanced methods of data science: from Data Collection to Analytics and Machine Learning with RAPIDS on Text and Graphical problems"
+          ],
+          "topics": [
+            "Introduction: Fundamentals of Data Science, GPU Acceleration, RAPIDS Framework",
+            "Data Collection: Collecting Data, Scraping Data, Popular Scraping libraries, Data Annotation",
+            "Data Pre-processing (ETL): Introduction to Data-preprocessing, Data Cleaning & Statistical Preprocessing, Data Cleaners: OpenRefine and Wrangler, Feature Selection: Introduction to Filter Methods, Introduction to Model-based methods, Feature Reduction: PCA",
+            "Introduction to Machine Learning - Supervised: Introduction to Supervised Learning, Linear Model, RAPIDS acceleration: Linear Regression, Overfitting and Cross Validation, Decision Tree, Visualizing Classification: {ROC, AUC, Confusion Matrix}, Bagging, Random Forests, RAPIDS acceleration: Random Forest, Boosting, RAPIDS acceleration: K-NN, XGBoost",
+            "Introduction to Machine Learning - Unsupervised: Introduction to Unsupervised Learning, Kmeans & Hierarchical Clustering, RAPIDS acceleration: K-Means, DBSCAN, PCA, t-SNE, UMAP, Visualizing Clusters, RAPIDS acceleration: PCA [t-SNE], UMAP, DBSCAN",
+            "Graph Analytics: How to Represent & Store Graphs, Graph Power Laws, Centralities: Degree, Betweenness, Clustering Coefficient, PageRank & Personalized PageRank, Interactive Graph Exploration, RAPIDS Acceleration: Graphistry & cuXFilter",
+            "Introduction to Deep Learning: Introduction to Artificial Neural Networks (ANNs), Artificial Neurons, Layers, Perceptron, Multilayer Perceptron, Advanced Deep Neural Networks (DNNs), Batch Normalization, Hyperparameter tuning, Activation Functions, Metrics, Optimization, Regularization"
+          ],
+          "self_learning": "Advanced RAPIDS features, GPU optimization techniques, deep learning frameworks",
+          "lab_work": "Introduction to Dockers & Containers, Introduction to NVIDIA GPU Cloud (NGC), Practical on Traditional Data Science packages (Numpy, Pandas, Scipy, Scikit-Learn), Accelerated Data Science framework RAPIDS: Introduction to RAPIDS and cuDF, Data Collection via API/Web Scraping, Decision Tree Classification Clustering in RAPIDS, Random Forest Classification in RAPIDS, KMeans Clustering Implementation in RAPIDS, Dimensionality Reduction and Visualization in RAPIDS, Graph Analytics with cuGraph, Latent semantic indexing for text via singular value decomposition (cuML), Accelerating Workloads using RAPIDS, Introduction to DL Frameworks: PyTorch, and Tensorflow (Keras)",
+          "outcomes": [
+            "In depth understanding of Data Analytics, Pre-processing and Visualization Toolkits",
+            "Comprehend and apply different classification and clustering techniques",
+            "Understand GPU computing for building advanced data science applications",
+            "Understand the concept of Neural Networks and its implementation using deep learning frameworks"
+          ],
+          "books": [
+            "Machine Learning - Mitchell M., T., McGraw Hill (1997) 1st Edition",
+            "Introduction to Machine Learning - Alpaydin E., MIT Press (2014) 3rd Edition",
+            "Machine Learning with Python - Vijayvargia Abhishek, BPB Publication (2018)",
+            "Pattern Recognition and Machine Learning - Bishop M., C., Springer-Verlag (2011) 2nd Edition",
+            "Machine Learning, Neural and Statistical Classification - Michie D., Spiegelhalter J. D., Taylor C. C., Campbell, J., Overseas Press (1994)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "convai2",
+          "course_no": "UCS664",
+          "name": "Conversational AI: Natural Language Processing",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides a broad introduction to deep learning and natural language processing with cost-effective approaches to automated knowledge acquisition using GPU computing.",
+          "objectives": [
+            "Provide a broad introduction to deep learning and natural language processing",
+            "Offer cost-effective approaches to automated knowledge acquisition in natural language understanding using deep learning and GPU Computing"
+          ],
+          "topics": [
+            "Introduction: Natural Language Processing and its Applications, Introduction to Deep Learning, NVIDIA Toolkits, SDKs and platforms for Deployment",
+            "Introduction to Natural Language Processing: What is NLP, Principles and Traditional Methods, Linguistics, Why Machine Learning and Deep Learning",
+            "Introduction to NLP using Deep Learning: Embeddings: Feedforward NN, Word2Vec, GloVE, Contextualization (ELMo etc.), Deep Recurrent Models: RNNs, GRUs, LSTMs",
+            "Advanced NLP using Deep Learning: Introduction to NeMo, Self-Attention, Transformer Networks: BERT and its Variants, Megatron etc, Working with open source datasets: GLUE Benchmarks",
+            "Applications of NLP: Exploring NLP Problem Statements- Information Retrieval, Intent Slot Filling, Machine Translation, Punctuation & Capitalization, Question and Answering Machine, Relation Extraction, Sentiment Analysis, Token Classification in NeMo",
+            "Introduction to NVIDIA Toolkits and SDKs: Transfer Learning Toolkit, TensorRT Optimization, Triton Inference Server for Inferencing and Deployments, Various Visualization Tools, Kubernetes Deployment"
+          ],
+          "self_learning": "Advanced transformer models, BERT variants, GPT models, modern NLP architectures",
+          "lab_work": "Introduction to DL Frameworks: TLT, PyTorch, and Tensorflow (Keras), Binary Classification with Perceptron and Logistic Regression, Neural Modules (NeMo) for Training Conv AI Models, Exploring NeMo Fundamentals, Exploring NeMo Model Construction, Nemo Swap App Demo, Sentiment Analysis & Text Classification with NeMo, Intent Slot Filling for ChatBot using Joint Bert Model with NeMo, Machine Translation with NeMo, Question & Answering Machine with NeMo, Information Retrieval, Punctuation & Capitalization, Relation Extraction, Sentiment Analysis, Token Classification with NeMo, Hands-on practical on TensorRT Optimization, Triton Inference Server",
+          "outcomes": [
+            "Understand the concept of Neural Networks and its implementation in the context of Machine Learning",
+            "Comprehend and apply recurrent neural networks on various NLP applications",
+            "Understand the concept of basic transformer networks and its variants",
+            "Apply transformer-based networks and its variants for NLP applications like text classification, question-answering and machine translation systems"
+          ],
+          "books": [
+            "Deep Learning in Neural Networks: An Overview - Schmidhuber, J., Neural Networks 61: 85-117 (2015)",
+            "Deep Learning - Bengio, Y., LeCun, Y., and Hinton, G., Nature 521: 436-44 (2015)",
+            "Natural Language Understanding - Allen, James, Second Edition, Benjamin/Cumming (1995)",
+            "Representation learning: A review and new perspectives - Bengio, Y., Courville, A., and Vincent, P., IEEE Transactions on Pattern Analysis and Machine Intelligence 35 (8): 1798-1828 (2013)",
+            "Deep Natural Language Processing course offered at the University of Oxford: https://github.com/oxford-cs-deepnlp-2017/lectures",
+            "The Unreasonable Effectiveness of Recurrent Neural Networks by Andrej Karpathy: https://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+            "Foundations of Statistical Natural Language Processing - Manning, Christopher and Heinrich, Schutze, MIT Press (1999)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "convai3",
+          "course_no": "UCS749",
+          "name": "Conversational AI: Speech Processing & Synthesis",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students with the overall structure of the Conversational AI pipeline including speech processing, recognition, and synthesis using NeMo and Jarvis SDK.",
+          "objectives": [
+            "Provide students with the overall structure of the Conversational AI pipeline including Speech Processing, Recognition, and Synthesis and building end to end workflows using NeMo and Jarvis SDK"
+          ],
+          "topics": [
+            "Introduction: Fundamentals of Speech Processing, Applications of Speech Processing and Deploying NLP, ASR and TTS modules in Jarvis",
+            "Fundamentals of Speech Processing: Introduction to Statistical Speech Processing, HMMs for Acoustic Modeling, WFTS for Automatic Speech Recognition (ASR), Basics of Speech Production, Tied State HMMs, Introduction to NNs in Acoustic Modeling (Hybrid/TDNN/Tandem)",
+            "Automatics Speech Recognition (ASR): ASR - DNN models (Jasper, QuartzNet, Citrinet, Conformer-CTC), Open-source Datasets, Language Modelling: N-Gram, Neural Rescoring",
+            "Applications of Speech Processing: Speech Commands: Speech Commands Recognition using MatchboxNet, Overview of Noise Augmentation, Voice Activity Recognition and Speaker Recognition",
+            "Speech Synthesis: Text Normalization: Preparing Dataset and Text Normalization for input to Speech Synthesis model, Introduction to Text-to-Speech (TTS) Models:- Mel Spectrogram Generator: - Tacotron-2, Glow-TTS, Audio Generators:- WaveGlow, SqueezeWave",
+            "Jarvis Deployment: Introduction to Jarvis, Overview of Jarvis ASR, NLU and TTS APIs, Introduction to Jarvis Dialog Manager, Jarvis Deployment:- Nemo model deployment for ASR, NLP and TTS"
+          ],
+          "self_learning": "Advanced speech models, multilingual ASR, voice conversion, speech enhancement",
+          "lab_work": "Practical Exercise on Statistical Speech Processing (Traditional Signal Processing), Automatic Speech recognition with NeMo on English Dataset, Automatic Speech recognition with NeMo on Indic Language (Hindi) Dataset, NeMo Speech Commands Recognition using MatchboxNet, Noise Augmentation, and Speaker Recognition, Text to Speech using Tacotron-2 and WaveGlow with NeMo on English Dataset, Text to Speech using Tacotron-2 and WaveGlow with NeMo on Indic Language (Hindi) Dataset, End-to-End Conversational AI Model (Any Language): ASR/NLP/TTS with NeMo and Jarvis",
+          "outcomes": [
+            "Understand Speech Processing pipeline for various applications with accelerated computing, ASR, Speaker Recognition etc.",
+            "Exploring Speech Synthesis on various data sets",
+            "Deep practical hands-on experience from training to deployment of these applications using NVIDIA GPUs and Toolkits:- NeMo, and Jarvis"
+          ],
+          "books": [
+            "Speech and Language Processing - Jurafsky, Dan and Martin, James, Second Edition, Prentice Hall (2008)",
+            "Speech and Language Processing - Daniel Jurafsky and James H. Martin, 3rd edition draft (2019)",
+            "The application of hidden Markov models in speech recognition - Mark Gales and Steve Young, Foundations and Trends in Signal Processing, 1(3):195-304 (2008)",
+            "Speech and Language Processing: An Introduction to Natural Language Processing, Speech Recognition, and Computational Linguistics - Daniel Jurafsky and James H. Martin, 2nd edition, Prentice-Hall (2009)",
+            "Deep Neural Networks for Acoustic Modeling in Speech Recognition - Geoffrey Hinton, Li Deng, Dong Yu, et al., IEEE Signal Processing Magazine, 29(6):82-97 (2012)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "convai4",
+          "course_no": "UCS748",
+          "name": "GENERATIVE AI",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Introduces students to generative AI with focus on Large Language Models, training, fine-tuning for text generation, image generation, and multi-modal tasks.",
+          "objectives": [
+            "Introduce students to the field of generative artificial intelligence with a focus on Large Language Models (LLMs)",
+            "Learn theoretical foundations behind LLMs and gain hands-on experience in training and fine-tuning these models for various generative tasks"
+          ],
+          "topics": [
+            "Introduction to Generative AI: Generative AI: Meaning, Capabilities and Potential, Applications of Generative AI, Tools for text, images, videos, audios and code generation",
+            "Generative AI Models: Introduction to Large Language Models (LLMs), History and evolution of LLMs, Transformer architecture: Attention mechanism, Pre-training and fine-tuning of LLMs, Language modeling objectives (e.g., Masked Language Modeling, Next Sentence Prediction), Data preprocessing for LLMs, Training strategies and best practices, Fine-tuning on custom datasets, Handling domain-specific data and tasks",
+            "Text Generation with LLMs: Text generation techniques, Conditional text generation, Sampling strategies, Evaluation metrics for text generation",
+            "Image Generation with LLMs: Overview of image generation tasks, Generative Adversarial Networks (GANs) vs. LLMs for image generation, Fine-tuning LLMs for image generation, Evaluation metrics for image generation",
+            "Beyond Text and Images - Multi-Modal Generation: Introduction to multi-modal generation, Combining LLMs with other generative models, Applications of multi-modal generation",
+            "Prompt Engineering: Meaning of Prompts and Prompt Engineering, Text-to-text prompt techniques: Interview Pattern Approach, Chain-of-Thought Approach, Tree-of-Thought Approach"
+          ],
+          "self_learning": "Advanced LLM architectures, RAG systems, LLM fine-tuning techniques, ethical AI",
+          "lab_work": "Pre-train a small language model on a text corpus and fine-tune it on a specific task or dataset, Fine-tune pre-trained language models on custom datasets for specific tasks like sentiment analysis or text classification, Implement autoregressive decoding to generate text using a pre-trained language model and explore its limitations, Build a conditional text generation model that takes input prompts or contexts to generate relevant responses, Build a basic GAN architecture using a deep learning framework like TensorFlow or PyTorch, Explore techniques to fine-tune pre-trained language models like GPT for image generation tasks using frameworks like CLIP, Experiment with combining LLMs like GPT with other generative models like GANs or Variational Autoencoders (VAEs) for multi-modal generation tasks, Implement a multi-modal generation model that generates coherent captions for given images or generates images from textual descriptions, Explore real-world applications of multi-modal generation such as image captioning, visual question answering (VQA), and generating visual explanations from textual input",
+          "outcomes": [
+            "Understand the theoretical foundations of Large Language Models (LLMs)",
+            "Apply LLMs for various generative tasks including text generation, image generation, and more",
+            "Train and fine-tune LLMs on custom datasets",
+            "Explore advanced topics and applications of LLMs in research and industry"
+          ],
+          "books": [
+            "Deep Learning - Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
+            "Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play - David Foster",
+            "Dive into Deep Learning - Aston Zhang",
+            "Attention is All You Need - Ashish Vaswani et al.",
+            "Natural Language Processing with PyTorch - Delip Rao and Brian McMahan",
+            "GPT-3: Language Models are Few-Shot Learners - Brown et al."
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
+    },
+    {
+      "basket_id": "robotics",
+      "basket_name": "Robotics and Edge AI",
+      "description": "Learn robotics, edge computing, and AI deployment on embedded systems",
+      "avg_rating": 4.6,
+      "rating_count": 11,
+      "reviews": [
+        {
+          "user": "Vivek Pandey",
+          "rating": 5,
+          "comment": "Fantastic basket! Worked with Jetson boards and real robots.",
+          "pros": "Hands-on hardware, Cutting-edge",
+          "cons": "Expensive hardware requirements",
+          "date": "2024-02-16"
+        },
+        {
+          "user": "Tanvi Agarwal",
+          "rating": 4,
+          "comment": "Great learning experience with robotics and edge AI.",
+          "pros": "Practical projects, Modern tools",
+          "cons": "Complex topics",
+          "date": "2024-03-24"
+        }
+      ],
+      "courses": [
+        {
+          "elective_id": "robotics1",
+          "course_no": "UCS668",
+          "name": "Edge AI and Robotics: Data Centre Vision",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students with basic fundamental understanding and practical hands-on training of computer vision and deep learning models on data centre GPU servers.",
+          "objectives": [
+            "Provide students with basic fundamental understanding and practical hands-on training of computer vision and deep learning models on data centre GPU servers"
+          ],
+          "topics": [
+            "Introduction: Introduction to Deep Learning, Formulating Computer Vision Problem Statements, Image Classification using CNN Architectures like VGG, Inception, ResNet(18/34/50/152), Working towards building Object detection and Segmentation pipelines",
+            "Introduction to Deep Learning: Introduction to Advanced Deep Neural Networks (DNNs), Batch Normalization, Hyperparameter tuning, Activation Functions, Metrics, Optimization, Regularization",
+            "Applications of Computer Vision (Image Classification): Introduction to NVIDIA Frameworks: {Transfer Learning using Transfer Learning Toolkit (TLT), Mixed Precision, DALI}, Image Classification using Deep CNN Architecture like VGG, ResNet18/34/50, re-training on custom dataset",
+            "Applications of Computer Vision (Object Detection & Segmentation): Introduction to Object Detection, Data Preprocessing, CNN Architecture like {SSD, YOLOv3, EfficientDet, Spinenet}, Metrics, Loss Functions, re-training on custom dataset, Segmentation: FCN-ResNet, Unet, MaskRCNN, Metrics and Loss functions",
+            "Graph Neural Network and Synthetic Data Generation: Introduction to Graph Neural Networks, Omniverse Replicator based synthetic data generation using 3D assets"
+          ],
+          "self_learning": "Advanced CNN architectures, synthetic data generation techniques, graph neural networks applications",
+          "lab_work": "Introduction to DL Frameworks: TLT, PyTorch, and Tensorflow (Keras), DLI Online Course: Getting Started with Deep Learning, DLI Online Course: Deep Learning at Scale with Horovod, Training Classification Models with and without Mixed Precision and Multi-GPU on Open & Custom Datasets, Training Detection Models with and without Mixed Precision and Multi-GPU on Open & Custom Datasets, Training Segmentation Models with and without Mixed Precision and Multi-GPU on Open & Custom Datasets, DLI Online Course: Getting Started with Image Segmentation, DLI Online Course: Synthetic Data Generation for Training Computer Vision Models, DLI Online Course: Introduction to Graph Neural Networks",
+          "outcomes": [
+            "Apply computer vision based techniques for problem solving in various domains",
+            "Demonstrate deployment of deep learning models, trained with mixed precision",
+            "Analyze and evaluate performance of models for classification, detection and segmentation tasks",
+            "Implementation synthetic image generation using generative models"
+          ],
+          "books": [
+            "Machine Learning - Mitchell M., T., McGraw Hill (1997) 1st Edition",
+            "Introduction to Machine Learning - Alpaydin E., MIT Press (2014) 3rd Edition",
+            "Machine Learning with Python - Vijayvargia Abhishek, BPB Publication (2018)",
+            "Computer Vision: Algorithms and Applications - R. Szeliski, Springer (2011)",
+            "Computer Vision: A Modern Approach - D. Forsyth and J. Ponce, Prentice Hall, 2nd ed. (2011)",
+            "Pattern Recognition and Machine Learning - Bishop M. C., Springer-Verlag (2011) 2nd Edition",
+            "Introductory techniques for 3D computer vision - E. Trucco and A. Verri, Prentice Hall (1998)",
+            "Visualizing and Understanding Convolutional Networks - Matthew D. Zeiler and Rob Fergus (2014)",
+            "Convolutional Neural Networks for Visual Recognition (Stanford course): http://cs231n.github.io/"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "robotics2",
+          "course_no": "UCS671",
+          "name": "Edge AI and Robotics: Embedded Vision",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students with advanced conceptual knowledge and practicals on computer vision and deep learning applications for end-to-end pipeline development from data collection to deployment.",
+          "objectives": [
+            "Provide students with advanced conceptual knowledge and practicals on various computer vision and deep learning applications",
+            "Provide the overall environment for end-to-end pipeline development from data collection to deployment"
+          ],
+          "topics": [
+            "Introduction: Utilizing Jetpack SDK and other NVIDIA Toolkits to deploy CNN models on Jetson, Creating Jetbot kits and deploying various applications, Working with NVIDIA Robotics toolkit: Isaac SIM SDK and Gazebo for collision avoidance, path following",
+            "Introduction to Edge AI: AI at the Edge & IoT, Jetson Architecture, Getting Started with Jetpack, NGC Containers in Jetson, Getting started with NGC & Containers on Jetson",
+            "Introduction to NVIDIA Toolkits and SDKs: Transfer Learning Toolkit, Kubernetes Deployment, Deepstream SDK, Deploying Classification, Detection and Segmentation CNN Models on Jetson Devices",
+            "Perception & Autonomous Navigation: Building JetBot Kits, Introduction to basic motion on JetBot, Collision Avoidance: Stop/Go classifier (JetBot), freespace detection, Path Following: Recording user input/video + DNN training (DriveNet), Simulation: Gazebo & Isaac SIM",
+            "Advanced Vision & SLAM: Pose Recognition (Deploying Human pose model), Depth Estimation: Mono/Stereo depth and point extraction, Visual Odometry: Camera pose estimation from DNNs, SLAM on JetBot"
+          ],
+          "self_learning": "Advanced edge AI deployment, Isaac SDK features, SLAM algorithms, autonomous navigation",
+          "lab_work": "Setting up the Jetson Project kit, DLI Online Course: Getting Started with AI on Jetson Nano, Deployment of Various Classification, Object Detection and Segmentation models in Jetson Nano, Getting started building various Jetbot Kits, Basic Motion with Jetbot, Collision Avoidance with Jetbot kit, Object following and Road following (DriveNet) with Jetbot, Teleoperation with Jetbot, Human Pose Estimation in Jetson Nano/Jetbot, Implementing SLAM on Jetbot",
+          "outcomes": [
+            "Demonstrate deployment of realtime vision based applications on edge devices",
+            "Implement kubernetes framework using Jetson Nano Devices",
+            "Apply vision based pose estimation techniques",
+            "Implement SLAM using Jetbot kits and vision sensors"
+          ],
+          "books": [
+            "Computer Vision: Algorithms and Applications - R. Szeliski, Springer (2011)",
+            "Computer Vision: A Modern Approach - D. Forsyth and J. Ponce, Prentice Hall, 2nd ed. (2011)",
+            "Computer Vision: Algorithms and Applications - Richard Szeliski, Springer-Verlag London Limited (2011)",
+            "Multiple View Geometry in Computer Vision - Richard Hartley and Andrew Zisserman, Second Edition, Cambridge University Press (2004)",
+            "Introduction to Statistical Pattern Recognition - K. Fukunaga, Second Edition, Academic Press, Morgan Kaufmann (1990)",
+            "Digital Image Processing - R.C. Gonzalez and R.E. Woods, Addison-Wesley (1992)",
+            "Pattern Recognition and Machine Learning - Christopher M. Bishop, Springer (2006)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "robotics3",
+          "course_no": "UCS547",
+          "name": "Edge AI and Robotics: Accelerated Data Science",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides students with fundamental knowledge of GPU Computing and Machine Learning with Deep Learning primer and model compression techniques.",
+          "objectives": [
+            "Provide students with fundamental knowledge of GPU Computing and Machine Learning",
+            "Introduce Deep Learning Primer and model compression techniques"
+          ],
+          "topics": [
+            "Introduction: GPU Computing, Parallel Programming, Machine Learning with RAPIDS, Model Compression",
+            "Image Processing and Parallel Programming: GPU Programming, CUDA C/C++/Python, Accelerated Image Processing, nvJPEG, Numba",
+            "Introduction to Machine Learning - Supervised: Introduction to Supervised Learning, Linear Model, RAPIDS acceleration: Linear Regression, Overfitting and Cross Validation, Decision Tree, Visualizing Classification: {ROC, AUC, Confusion Matrix}, Bagging, Random Forests, RAPIDS Acceleration: Random Forest, Boosting, RAPIDS acceleration: K-NN, XGBoost",
+            "Deep Learning Model Compression: Introduction to model pruning, quantization and distillation",
+            "Optimization Framework: Using TensorRT optimization, Deploying model on Triton Inference server"
+          ],
+          "self_learning": "Advanced CUDA programming, RAPIDS optimization, TensorRT deployment strategies",
+          "lab_work": "Practical on Traditional Data Science packages (Numpy, Pandas, Scipy, Scikit-Learn), CUDA C/C++ for Accelerated Computing, DLI Online Course Section: Fundamentals of Accelerated Computing with CUDA C/C++, Numba to compile CUDA kernels for Numpy Acceleration in Python, DLI Online Course Section: Fundamentals of Accelerated Computing with CUDA Python, Getting started with Accelerated Data Science with RAPIDS AI (cuPy, cuDF, cuSignal, cuML), Decision Tree Classification Clustering in RAPIDS, Random Forest Classification in RAPIDS, DLI Online Course Section: Fundamentals of Accelerated Data Science with RAPIDS, Section 2: GPU accelerated Machine Learning, Model Pruning, Post Training Quantization, Quantization Aware Training, Distillation",
+          "outcomes": [
+            "Demonstrate ability to deploy GPU accelerated code for image processing applications",
+            "Apply model compression techniques while deploying deep learning architectures",
+            "Implement Rapids AI framework for different machine learning tasks",
+            "Analyze and evaluate performance of deep learning based inference models using TensorRT optimization and Triton Server"
+          ],
+          "books": [
+            "Machine Learning - Mitchell M., T., McGraw Hill (1997) 1st Edition",
+            "Introduction to Machine Learning - Alpaydin E., MIT Press (2014) 3rd Edition",
+            "Machine Learning with Python - Vijayvargia Abhishek, BPB Publication (2018)",
+            "Pattern Recognition and Machine Learning - Bishop M., C., Springer-Verlag (2011) 2nd Edition",
+            "Machine Learning, Neural and Statistical Classification - Michie D., Spiegelhalter J. D., Taylor C. C., Campbell, J., Overseas Press (1994)"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        },
+        {
+          "elective_id": "robotics4",
+          "course_no": "UCS760",
+          "name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "credits": 3.0,
+          "description": "Provides introduction to the basic mathematical foundations of Reinforcement Learning for building real world computer vision applications, and Conversational AI for developing Chatbots.",
+          "objectives": [
+            "Provide introduction to the basic mathematical foundations of Reinforcement Learning for building real world computer vision applications",
+            "Introduce Conversational AI for developing Chatbots"
+          ],
+          "topics": [
+            "Introduction: GPU Computing, Implementing Behaviours of Robots such as Manipulation, and Task Learning, Fundamentals of Reinforcement Learning for Vision and Deploying Conversational AI pipelines in Jetson",
+            "Manipulation: Overview of Manipulation in Robotics, Inverse Kinematics and Control, Gripping & Task Learning",
+            "Reinforcement Learning: Introduction to RL: RL agents, Dynamic Programming, Monte Carlo's and Temporal-Difference Methods, OpenAI Gym, RL in Continuous Spaces",
+            "Conversational AI (NLP): Natural Language Processing: Introduction to NLP, BERT, Megatron, Applications of NLP: Information Retrieval, Intent Slot Filling, Machine Translation, Punctuation & Capitalization, Question and Answering Machine, Relation Extraction, Sentiment Analysis, Token Classification in NeMo",
+            "Conversational AI (Speech Processing): Automated Speech Recognition: Introduction to ASR, Architectures: Jasper/QuartzNet/CitriNet, Text to Speech: TTS-Tacotron2/WaveGlow and Jarvis Deployment"
+          ],
+          "self_learning": "Advanced RL algorithms, policy gradients, actor-critic methods, conversational AI deployment",
+          "lab_work": "Manipulation Lab: Building Pick-n-place, Manipulation Lab: Object Assembly, Game Agent: Open AI Gym (Jetbot in simulation), Conversational AI VoiceBot: Verbal JetBot commands/feedback (optional mic/speaker)",
+          "outcomes": [
+            "Apply reinforcement learning for robot navigation",
+            "Deploy computer vision models in various simulation environments",
+            "Implement applications with conversational AI",
+            "Utilize programming and AI training & deployment tools for relevant model building in both edge hardware devices and simulation environments"
+          ],
+          "books": [
+            "Reinforcement learning - Wiering, Marco, and Martijn Van Otterlo, Adaptation, learning, and optimization 12 (2012): 3",
+            "Artificial intelligence: a modern approach - Russell, Stuart J., and Peter Norvig, Pearson Education Limited (2016)",
+            "Speech and Language Processing - Jurafsky, Dan and Martin, James, Second Edition, Prentice Hall (2008)",
+            "Speech and Language Processing - Daniel Jurafsky and James H. Martin, 3rd edition draft (2019)",
+            "Deep learning - Goodfellow, Ian, Yoshua Bengio, and Aaron Courville, MIT press (2016)",
+            "The application of hidden Markov models in speech recognition - Mark Gales and Steve Young, Foundations and Trends in Signal Processing, 1(3):195-304 (2008)",
+            "Speech and Language Processing: An Introduction to Natural Language Processing, Speech Recognition, and Computational Linguistics - Daniel Jurafsky and James H. Martin, 2nd edition, Prentice-Hall (2009)",
+            "Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto: https://webdocs.cs.ualberta.ca/~sutton/book/the-book-2nd.html",
+            "David Silver's course: http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html",
+            "Deep Reinforcement Learning: Pong from Pixels by Andrej Karpathy: https://karpathy.github.io/2016/05/31/rl/",
+            "Talks on Deep Reinforcement Learning by John Schulman: https://www.youtube.com/watch?v=aUrX-rP_ss4",
+            "Deep Reinforcement Learning course: http://rll.berkeley.edu/deeprlcourse/"
+          ],
+          "evaluation": {
+            "mst": 45,
+            "est": 55
+          }
+        }
+      ]
     }
   ]
 }
